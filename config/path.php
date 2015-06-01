@@ -1,6 +1,6 @@
 <?php
 
-define('URL', 'http://localhost/');
+define('URL', 'http://localhost/foodsuss/');
 define('JQUERY', 'http://localhost/js/jquery-1.9.1.js');
 
 define('Controller', 'controllers/');
