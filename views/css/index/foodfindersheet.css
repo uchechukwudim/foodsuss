@@ -1,0 +1,429 @@
+/* 
+    Document   : foodfindersheet
+    Created on : Aug 21, 2013, 4:30:16 PM
+    Author     : andy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+#Finderbody .wrapper-dropdown-3 span{
+    position: relative;
+    left:100px;
+}
+
+
+
+#Finderbody .wrapper-dropdown-3{
+   /* Size and position */
+    position: relative;
+    left:130px;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+ 
+    /* Styles */
+    background: #fff;
+    border-radius: 7px;
+    border: 0px solid rgba(0,0,0,0.15);
+    box-shadow: 0px 0px rgba(50,50,50,0.1);
+    cursor: pointer;
+    outline: none;
+ 
+    /* Font settings */
+    font-weight: bold;
+    color: grey;
+}
+
+#Finderbody .wrapper-dropdown-3:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: grey transparent;
+}
+
+#Finderbody  .wrapper-dropdown-3 .dropdown {
+  /* Size & position */
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    right: 2px;
+    
+    /* Styles */
+    background: white;
+    border-radius: inherit;
+    border: 1px solid rgba(0,0,0,0.17);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    font-weight: normal;
+    transition: all 0.5s ease-in;
+    list-style: none;
+ 
+    /* Hiding */
+    opacity: 0;
+    pointer-events: auto;
+   z-index: 1;
+    display:none;
+ 
+}
+
+#Finderbody .wrapper-dropdown-3 .dropdown li a {
+    position: relative;
+    right: 39px;
+    width: 190px;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: grey;
+    border-bottom: 1px solid #e6e8ea;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,1);
+    transition: all 0.3s ease-out;
+}
+
+#Finderbody .wrapper-dropdown-3 .dropdown li i {
+    float: right;
+    color: inherit;
+}
+#Finderbody .wrapper-dropdown-3 .dropdown li:last-of-type a {
+    border-radius: 0 0 7px 7px;
+    border: none;
+}
+ 
+/* Hover state */
+ 
+#Finderbody .wrapper-dropdown-3 .dropdown li:hover a {
+    background: whitesmoke;
+    display: block;
+}
+
+#Finderbody .wrapper-dropdown-3 .dropdown:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 15px;
+   
+    border-style: solid;
+    border-color: #fff transparent;    
+}
+#Finderbody .wrapper-dropdown-3 .dropdown:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 13px;
+  
+    border-style: solid;
+    border-color: rgba(0,0,0,0.1) transparent;    
+}
+
+#Finderbody .wrapper-dropdown-3.active .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+    display:block;
+}
+.wrapper-dropdown-3.active:after {
+    border-color: #9bc7de transparent;
+    border-width: 6px 6px 0 6px ;
+    margin-top: -3px;
+}
+ 
+.wrapper-dropdown-3.active {
+  background: #9bc7de;
+  
+}    
+
+#Finderload{
+ position: relative;
+ left: 430px;
+ top: 25px;
+
+}
+
+/*
+dropdown for recipes:::::::::::::::::::::::::::::::::::::
+*/
+
+#body .wrapper-dropdown-3 span{
+    position: relative;
+    left:0px;
+}
+
+
+
+#body .wrapper-dropdown-3{
+   /* Size and position */
+    position: relative;
+    right:130px;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+ 
+    /* Styles */
+    background: whitesmoke;
+    border-radius: 7px;
+    border: 0px solid rgba(0,0,0,0.15);
+    box-shadow: 0px 0px rgba(50,50,50,0.1);
+    cursor: pointer;
+    outline: none;
+ 
+    /* Font settings */
+    font-weight: bold;
+    font-size: 12px;
+    color: grey;
+    margin-bottom: -27px;
+}
+
+#body .wrapper-dropdown-3:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 100px;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: grey transparent;
+}
+
+#body  .wrapper-dropdown-3 .dropdown {
+  /* Size & position */
+    position: absolute;
+    top: 50%;
+    right: 88px;
+    
+    /* Styles */
+    background: white;
+    border-radius: inherit;
+    border: 1px solid rgba(0,0,0,0.17);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    font-weight: normal;
+    transition: all 0.5s ease-in;
+    list-style: none;
+ 
+    /* Hiding */
+    opacity: 0;
+    pointer-events: auto;
+    z-index: 0;
+}
+
+#body .wrapper-dropdown-3 .dropdown li a {
+    position: relative;
+    right: 25px;
+    width: 100px;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: grey;
+    border-bottom: 1px solid #e6e8ea;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,1);
+    transition: all 0.3s ease-out;
+}
+
+#body .wrapper-dropdown-3 .dropdown li i {
+    float: right;
+    color: inherit;
+
+}
+#Finderbody .wrapper-dropdown-3 .dropdown li:last-of-type a {
+    border-radius: 0 0 7px 7px;
+    border: none;
+}
+ 
+/* Hover state */
+ 
+#body .wrapper-dropdown-3 .dropdown li:hover a {
+    background: whitesmoke;
+    display: block;
+    width: 100px;
+}
+
+#body .wrapper-dropdown-3 .dropdown:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 15px;
+   
+    border-style: solid;
+    border-color: #fff transparent;    
+}
+#body .wrapper-dropdown-3 .dropdown:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 13px;
+  
+    border-style: solid;
+    border-color: rgba(0,0,0,0.1) transparent;    
+}
+
+#body .wrapper-dropdown-3.active .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+    width: 100px;
+}
+.wrapper-dropdown-3.active:after {
+    border-color: #9bc7de transparent;
+    border-width: 6px 6px 0 6px ;
+    margin-top: -3px;
+}
+ 
+.wrapper-dropdown-3.active {
+  background: #9bc7de;
+  
+} 
+
+#personals{
+    float: left;
+    width: 300px;
+    height: 400px;
+ 
+}
+#userPersonals{
+    position: relative;
+
+    margin-left: 30px;
+    width: 280px;
+    height: 210px;
+    background: white;
+}
+
+#userPersonals span#imgP{
+    padding-left: -50px;
+    position: relative;
+    top: 20px;
+    right:25px;
+  
+}
+
+#userPersonals span#nameP a{
+    color: grey;
+    font-weight: 600;
+    font-family: "Century Gothic";
+    font: "Didot";
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    top: -10px;
+    right: 20px;
+}
+
+#userPersonals span#nameP:hover
+{
+    color: #666666;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#personalNav{
+    position: relative;
+    top: 15px;
+}
+
+#personalNav ul li a{
+    width: 150px;
+    font-family: "Century Gothic";
+    font: "Didot";
+    font-size: 12px;
+    line-height: 20px;   
+    color: grey;
+    text-decoration: none;
+}
+
+#personalNav ul li{
+    color: grey;
+    width: 220px;
+}
+#personalNav ul li:hover{
+    background: whitesmoke;
+    cursor: pointer;
+    color: #666666;
+}
+
+#personalNav ul li a:hover{
+color: #666666;
+}
+
+#activities{
+    position: relative;
+    top: 20px;
+    margin-left: 30px;
+    width: 280px;
+    height: 200px;
+    background: white;
+}
+
+#actContainer{
+ position: relative;
+ top: -20px;
+ right: 20px;
+}
+ 
+#actContainer ul li{
+    line-height: 30px;
+    list-style: none;
+    color: grey;
+    border-bottom:  1px solid rgba(0, 0, 0, 0.1);
+ }
+ 
+ .useractivity ul li{
+     line-height: 10px;
+    list-style: none;
+    color: grey;
+    border-bottom:  1px solid rgba(0, 0, 0, 0.1);
+ }
+ 
+ #actContainer ul li:hover, .useractivity ul li:hover{
+  background: whitesmoke;   
+  cursor: pointer
+ }
+ 
+ #actContainer ul li a{
+   font-family: "Century Gothic";
+    font: "Didot";
+    font-size: 12px;
+    line-height: 20px;   
+    color: grey;
+    text-decoration: none;
+ }
+ 
+ .useractivity ul li a{
+     font-family: "Century Gothic";
+    font: "Didot";
+    font-size: 12px;
+    line-height: 20px;   
+    color: grey;
+    text-decoration: none;
+ }
+ 
+ #connect{
+     color: grey;
+    font-weight: 600;
+    font-family: "Century Gothic";
+    font: "Didot";
+    font-size: 9px;
+    position: relative;
+    top: 20px;
+    left: 230px;
+  
+ }
+ #pers{
+     color: grey;
+    font-weight: 600;
+    font-family: "Century Gothic";
+    font: "Didot";
+    font-size: 9px;
+    position: relative;
+    top: -35px;
+    left: 228px;
+ }

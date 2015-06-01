@@ -1,0 +1,162 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 25, 2014, 2:52:08 PM
+    Author     : Uche
+*/
+
+#makeRecOptLoglayer{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+    z-index: 1000;
+    display: none;
+ 
+}
+
+#makeRecOptLogdialog{
+    width: 350px;
+    height: 200px;
+    margin: 0 auto;
+    position: absolute;
+  
+    
+    bottom: 35%;
+    right: 0%;
+    left: 0%;
+   
+    background-color: white;
+    z-index: 1500;
+    box-shadow: 0 0 50px #000;
+    -box-shadow: 0 0 50px #000;
+    -webkit-box-shadow: 0 0 50px #000;
+    -ms-box-shadow: 0 0 50px #000;
+    
+    border-top-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    
+    border-top-left-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+     
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+     
+    
+    display: none;
+}
+
+#makeRecOptLogheader_dialogProd{
+    width: 350.2px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    color: grey;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background: white;
+    
+    border-top-left-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    
+    border-top-right-radius: 5px;
+     -webkit-border-top-right-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    
+}
+#makeRecOptLogheader_dialogProd span.txt{
+    position: relative;
+    left:18px;
+    top: 5px;
+}
+#makeRecOptLogheader_dialogProd span.esc{
+    color: orangered;
+    font-weight: 500;
+    position: relative;
+    left:250px;
+    top: 5px;
+}
+
+#makeRecOptLogheader_dialogProd span.esc:hover{
+    cursor: pointer;
+}
+
+#makeRecOptLogclose{
+    cursor: pointer;
+    width: 30px;
+    line-height: 30px;
+    background-color: white;
+    color:orangered;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: 170px;
+    right: -0px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+}
+
+#makeRecOptHolder ul{
+    position: relative;
+    right: 20px;
+    top: 5px;
+}
+
+#makeRecOptHolder ul li{
+    color: grey;
+    text-align: center;
+    height: 30px;
+    list-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    
+    padding-top: 18px;
+    padding-bottom: 10px;
+    
+}
+
+#makeRecOptHolder ul li:hover{
+    cursor: pointer;
+     color: orangered;
+    background: whitesmoke;
+}
+
+#makeRecOptHolder ul li#MROptList{
+    border-bottom: none;
+}
+#makeRecOptHolder ul li#MROptList img{
+    position: relative;
+    left: -68px;
+}
+
+#makeRecOptHolder ul li#MROptList span{
+    position: relative;
+    left: -13px;
+}
+
+
+#makeRecOptHolder ul li img{
+    position: relative;
+    left: -55px;
+    top: 8px;
+    
+    margin-top: -10px;
+}
+
+
+
+

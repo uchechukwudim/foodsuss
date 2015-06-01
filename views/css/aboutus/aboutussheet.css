@@ -1,0 +1,272 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 1, 2014, 11:20:08 PM
+    Author     : Uche
+*/
+
+html{
+    font-family: Arail;
+    font-size: 16px;
+    width: 100%;
+    background: white;
+}
+
+#container{
+    width: 1200px; /*90%;*/
+    position: relative;
+    left: 50px;
+}
+
+h1{
+    font-size: 50px;
+    color: black;
+    margin-top: 0px;
+}
+
+h2{
+    color: black;
+}
+
+
+#logo{
+    width: 100%;
+    background: url(http://enrifinder.com/enri_header.png);
+}
+
+#logo img{
+    width: 80px;
+      position: relative;
+      left: -500px;
+}
+
+#logo span{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    left: -500px;
+    bottom: 8px;
+}
+header{
+    text-align: center;
+    width: 100%;
+    height: 170px;
+    background: whitesmoke;
+    color: black;
+    font-size: 20px;
+    
+    padding-left: 0px;
+    padding-right: 0px;
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+    min-width: 1349px;
+}
+
+header p{
+    font-size: 30px;
+    position: relative;
+    top: -35px;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.content{
+    width: 599.5px;
+    font-size: 18px;
+}
+
+.content.one{
+    float: right;
+    margin-top: 280px;
+}
+.content.one h2{
+    float: right;
+    position: relative;
+    left: -390px;
+}
+
+.content.one p{
+    width: 400px;
+    position: relative;
+    left: 70px;
+    top: -30px;
+}
+
+
+.content.two{
+   float: left;
+   position: relative;
+    top: 390px;
+    margin-bottom: 300px;
+}
+
+.content.two img{
+    float: left;
+    width: 100px;
+    position: relative;
+    
+}
+
+.content.two p{
+    position: relative;
+    top: 50px;
+    left: -160px;
+}
+
+.content.two h2{
+    float: left;
+    position: relative;
+    top: 10px;
+   
+}
+
+.content.three{
+    position: relative;
+    left: 430px;
+    top: 150px;
+}
+
+.content.three img{
+  width: 100px;
+  position: relative;
+  left: 140px;
+}
+.content.three h2{
+    float: right;
+    position: relative;
+    left: -210px;
+}
+
+.content.three p{
+     width: 400px;
+    position: relative;
+    left: 240px;
+    top: -40px;
+}
+
+
+content four{
+    clear: left;
+    clear: right;
+}
+
+.content.four img{
+  width: 100px;
+  position: relative;
+  top: 100px;
+}
+
+.content.four h2{
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+
+.content.four p{
+    width: 400px;
+    position: relative;
+    left: 100px;
+}
+
+.content.five{
+    float: right;
+}
+
+.content.five img{
+    width: 80px;
+    position: relative;
+    left: -20px;
+}
+
+.content.five h2{
+    float: right;
+    position: relative;
+    left: -385px;
+}
+
+.content.five p{
+    width: 400px;
+    position: relative;
+    left: 70px;
+    top: -20px;
+}
+
+.content.six{
+    position: relative;
+    top: 180px;
+}
+
+.content.six img{
+    width: 60px;
+    float: left;   
+}
+
+.content h2{
+     position: relative;
+   top: 20px;
+   left: 10px;
+}
+.content.six p{
+   position: relative;
+   top: 10px;
+   left: 10px;
+}
+
+
+.AboutFooter{
+    clear: left;
+    clear: right;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    height: 39px;
+    background: #707070;
+    padding-top: 22px;
+    
+    position: relative;
+    left: -8px;
+    right: 0px;
+    bottom: -200px;
+    min-width: 1349px;
+}
+
+.AboutFooter span{
+    position: relative;
+    top: 0px;
+    left: 150px;
+}
+.AboutFooter ul{
+    float: right;
+    position: relative;
+    bottom: 15px;
+    right: 200px;
+}
+
+.AboutFooter ul li{
+    font-size: 12px;
+    color: white;
+    list-style: none;
+    display: inline-block;
+    margin-left: 38px;
+}
+
+.AboutFooter ul li a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.AboutFooter ul li a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

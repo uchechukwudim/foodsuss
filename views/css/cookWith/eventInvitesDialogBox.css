@@ -1,0 +1,149 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 25, 2014, 2:52:08 PM
+    Author     : Uche
+*/
+
+#eventInvitesLoglayer{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+    z-index: 1000;
+    display: none;
+}
+
+#eventInvitesLogdialog{
+  width: 500px;
+   
+    margin: 0 auto;
+    position: absolute;
+  
+    
+    bottom: 30%;
+    right: 50%;
+    left: 15%;
+   
+    background-color: white;
+    z-index: 1500;
+    box-shadow: 0 0 50px #000;
+    -box-shadow: 0 0 50px #000;
+    -webkit-box-shadow: 0 0 50px #000;
+    -ms-box-shadow: 0 0 50px #000;
+    
+    display: none;
+}
+
+#eventLogheader_dialogProd{
+    width: 500px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background: orangered;
+}
+#eventLogheader_dialogProd span.txt{
+    position: relative;
+    left:10px;
+    top: 5px;
+}
+
+#eventLogclose{
+    cursor: pointer;
+    width: 30px;
+    line-height: 30px;
+    background-color: white;
+    color:orangered;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: 320px;
+    right: -0px;
+}
+
+.aFriend{
+    float: left;
+    width: 240px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border:  0px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+.userChecker{
+  position: relative;
+  top: 20px;
+}
+
+.userImage{
+    float: left;
+    position: relative;
+    bottom:  32px;
+    left: 40px;
+}
+
+.userName{
+   font-size: 12px;
+    color: grey;
+    position: relative;
+    bottom:  30px;
+    left: 45px;
+}
+
+#cancelInvite{
+    clear: left;
+    float: right;
+     width: 80px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    background: orangered;
+    border: none;
+    text-align: center;
+    position: relative;
+    right: 20px;
+    
+  
+}
+
+#submitInvites{
+    float: right;
+    width: 80px;
+    height: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    background: orangered;
+    border: none;
+    text-align: center;
+    position: relative;
+    
+   
+}
+
+#submitInvites:hover, #cancelInvite:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,170 @@
+/* 
+    Document   : productsheet
+    Created on : Jun 7, 2013, 4:48:30 PM
+    Author     : andy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#eatWithLayer{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.9;
+    z-index: 1500;
+    display: none;
+}
+
+#eatWithDialog{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    right: 20%;
+    left: 20%;
+   
+    background-color: whitesmoke;
+    z-index: 1500;
+    box-shadow: 0 0 50px #000;
+    -box-shadow: 0 0 50px #000;
+    -webkit-box-shadow: 0 0 50px #000;
+    -ms-box-shadow: 0 0 50px #000;
+    display: none;
+}
+
+#holdEatWith{
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+#eatWithClose{
+    cursor: pointer;
+    width: 30px;
+    line-height: 30px;
+    background-color: whitesmoke;
+    color:orangered;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: 470px;
+    right: -0px;
+}
+
+.prodList{
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-bottom:  1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    color: #666666;
+    font-family: "Lucida Grande";
+    font-size: 14px;
+}
+
+
+#header_dialogEatwith{
+    width: 400px;
+    height: 30px;
+    font-family: "Century Gothic";
+    font: "Didot";
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    background: orangered;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+#header_dialogEatwith span.txt{
+    font-family: "Century Gothic";
+    font: "Didot";
+    font-weight: 700;
+    position: relative;
+    left:10px;
+    top: 5px;
+}
+
+#eatWithLogSubmitBt{
+    float: right;
+    width: 80px;
+    height: 27px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 5px;
+    background: orangered;
+    border: none;
+    text-align: center;
+    position: relative;
+    top: 3px;
+    
+    
+       border-radius: 5px;
+    -moz-border-radius:  5px; /*25px;*/
+    -webkit-border-radius: 5px;
+}
+#eatWithLogSubmitBt:hover, #eatWithLogCancelBt:hover{
+    cursor: pointer;
+     -moz-box-shadow:    inset 0 0 4px #FFFFFF;
+   -webkit-box-shadow: inset 0 0 4px #FFFFFF;
+   box-shadow:         inset 0 0 4px #FFFFFF;
+}
+
+#eatWithLogCancelBt{
+    float: right;
+    width: 80px;
+    height: 27px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 5px;
+    margin-left: -10px;
+    background: orangered;
+    border: none;
+    text-align: center;
+    position: relative;
+    top: 3px;
+   
+       border-radius: 5px;
+    -moz-border-radius:  5px; /*25px;*/
+    -webkit-border-radius: 5px;
+}
+
+
+#eatWithUpload{
+margin-left: 179px;
+margin-top: 3px;
+}
+
+#eatWithUpload:hover{
+    cursor: pointer;
+}
+#description{
+    color:grey;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+input[type=file]{
+    display: none;
+}
+
+#error_info{
+    color: red;
+    font-size: 11px;
+    display: none;
+    margin-left: 15px;
+    position: relative;
+    bottom: 25px;
+}

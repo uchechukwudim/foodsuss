@@ -1,0 +1,562 @@
+/* 
+    Document   : foodsheet
+    Created on : May 24, 2013, 1:12:55 PM
+    Author     : andy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+html{
+    font-family: Arial !important;
+    overflow-y: scroll;
+}
+
+#Findercontainer{
+    width: 1201px; /*89%*/;
+    margin: 0 auto;
+    position: absolute;
+    top: 100px;;
+    left: 0px;
+    right: 0px;
+    border:  0px solid rgba(0, 0, 0, 0.1);
+    min-width: 600px;
+    background: #fff;
+     padding-top: 30px;
+     padding-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+#usrform{
+	width:170px;
+	margin:0 auto;
+        
+}
+
+
+
+
+#Swrapper{
+    width: 170px;
+    margin: 0 auto;
+    position: relative;
+    right: 50px;
+    bottom: 40px;
+}
+
+.foodCon{
+    position: relative;
+    left: -10px;
+    width: 510px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 1px;
+    box-shadow: 0 0 10px 0px rgba(11, 2, 23, 0.3);
+}
+
+.foodCon:hover{
+    cursor: pointer;
+ 
+}
+.foodpic{
+    width: 100px;
+    height: 100px;
+    border: 0px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 15px;
+    left: 10px;
+ 
+}
+.foodName{
+    width: 200px;
+    position: relative;
+    left: 135px;
+    top: -88px;
+    color: #666666;
+    font-size: 1.20em;
+}
+
+.OtherCountryNuterients{
+    width: 220px;
+   
+    font-size: 14px;
+    position: relative;
+    left: 95px;
+    top:-37px;
+    color: orangered;
+    font-weight: 600;
+    margin-top: -2px;
+    margin-bottom: -40px;
+}
+
+.OtherCountryNuterients ul li{
+     height: 10px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+
+.followFood
+{
+    width: 200px;
+    font-size: 10px;
+    position: relative;
+    top: 5px;
+    left: 300px;
+    margin-bottom: -10px;
+    
+}
+
+.followFood img{
+ position: relative;
+    top: 5px;
+    left: 160px;
+}
+
+.followFood span{
+    position: relative;
+    top: 12px;
+    margin-right: 50px;
+}
+
+.foodDesc{
+    line-height: 145%;
+    width: 350px;
+    position: relative;
+    left: 135px;
+    top: -83px;
+    color: #666666;
+    letter-spacing: 1px;
+    font-size: 15px;
+     margin-bottom: -40px;
+}
+
+.FollowCount{
+    float: right;
+   color: rgba(0, 0, 0, 0.1);
+   font-size: 14px;
+   
+}
+
+
+
+.enri_recipes{
+    width: 65px;
+    height: 22px;
+    margin: 0 auto;
+    margin-bottom: -30px;
+
+    position: relative;
+    left: 150px;
+    bottom: 25px;
+    color: #666666;   
+     cursor: pointer;
+     font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+       
+}
+
+
+
+.products{
+    width: 65px;
+    height: 22px;
+    margin: 0 auto;
+    position: relative;
+    left: 205px;
+    bottom: 3px;
+    color: #666666;   
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+
+
+#Prod{
+    position: relative;
+    left: 10px;
+    bottom: 15px;
+}
+#M{
+    position: relative;
+    left: 14px;
+    top: 3px;
+}
+
+#inputFood{
+    margin: 0 auto;
+  width: 480px;
+  height: 30px;
+  position: relative;
+  left:-156px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family:verdana;
+  background-color: white;
+  margin-bottom: 10px;
+ 
+}
+
+
+
+#tag{
+    
+    position: relative;
+    left: -138px;
+    top: 10px;
+    font-size: 11px;
+}
+#tag span{
+     position: relative;
+     top: -5px;
+     left: -25px;
+     font-size: 11px;
+     margin-bottom: 20px;
+     color: #666666;
+     font-weight: 600;
+}
+#tag img{
+    position: relative;
+    left: -25px;
+    
+}
+
+#tag img.im1{
+    position: relative;
+    left: 200px;  
+}
+
+#tag a{
+    text-decoration: none;
+    
+}
+
+
+form #btnTag{
+    margin: 0 auto;
+    width: 480px;
+
+    position: relative;
+    top: -5px;
+    left:-155px;
+    
+    
+}
+
+#usrform{
+    position: relative;
+    top: 15px;
+    right: 7px;
+
+}
+
+
+#usrform #submitBt{
+width: 70px;
+height: 30px;
+position: relative;
+top: 0px;
+left: 405px;
+color: white;  
+font-weight: 600;
+font-size: 9px;
+background-color: #F4716A;
+cursor: pointer;
+
+}
+
+#usrform #uploadPic{
+    width: 50px;
+    height: 18px;
+    position: relative;
+    top: -32px;
+    left: 3px;
+    color: #666666;   
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 9px;
+    text-align: center;
+    padding-top: 4px;
+
+}
+
+
+
+#uploadProducts{
+    width: 55px;
+    height: 23px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: -52px;
+    left: 62px;
+    margin-bottom: -50px;
+    color: #666666;   
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 9px;
+    background-color: #fcfcfc;
+}
+
+
+#uploadProducts:hover{
+      background-color: whitesmoke;
+}
+
+
+
+
+  
+  #tooltips{
+    border:1px solid rgba(0, 0, 0, 0.1);
+    background: white;
+    color: #666666;
+   font-size: 10px;
+    padding:10px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    top: 20px;
+    
+  
+    width:300px;
+    height: 100px;
+    margin-bottom: 30px;
+    overflow: auto;
+    display: none;
+  }
+  
+  
+  #foodFollowingHeader{
+        width: 480px;
+       font-size: 13px;
+       font-weight: 700;
+       color: grey;
+       margin-bottom: 30px;
+       padding-bottom: 5px;
+       position:relative;
+       bottom: 5px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+       position: relative;
+       top:10px
+  }
+  
+  #chefsFollowFriendsHeader
+  {
+            width: 600px;
+        font-size: 13px;
+        font-weight: 700;
+        color: grey;
+        margin-bottom: 30px;
+        padding-bottom: 5px;
+        position:relative;
+        bottom: 5px;
+         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        position: relative;
+        left: 0px;
+        top:10px
+  }
+  
+   #restFollowFriendsHeader{
+         width: 600px;
+        font-size: 13px;
+        font-weight: 700;
+        color: grey;
+        margin-bottom: 30px;
+        padding-bottom: 5px;
+        position:relative;
+        bottom: 5px;
+         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        position: relative;
+        left: 0px;
+        top:10px
+  }
+  
+input[type=file] {
+    display:block;
+    height:0;
+    width:0;
+}
+
+textarea{
+    resize: none;
+}
+
+
+#postload{
+    width: 50px;
+    position: relative;
+    top: 40px;
+    left:550px;
+}
+
+
+
+
+
+
+#Finderbody .FFwrapper-FFdropdown-3 span{
+    color: #F4716A;
+    font-size: 13px;
+    position: relative;
+    left:115px;
+}
+
+
+
+#Finderbody .FFwrapper-FFdropdown-3{
+   /* Size and position */
+    position: relative;
+    left:125px;
+    top: 10px;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    /* Styles */
+    background: #fff;
+    border-radius: 7px;
+    border: 0px solid rgba(0,0,0,0.15);
+    box-shadow: 0px 0px rgba(50,50,50,0.1);
+    cursor: pointer;
+    outline: none;
+ 
+    /* Font settings */
+    font-weight: bold;
+    color: grey;
+}
+
+#Finderbody .FFwrapper-FFdropdown-3:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color:#F4716A transparent;
+    z-index: 1;
+}
+
+#Finderbody  .FFwrapper-FFdropdown-3 .FFdropdown {
+  /* Size & position */
+    position: absolute;
+    top: 55%;
+    left: 15px;
+    right: -4px;
+    
+    /* Styles */
+    background: white;
+    border-radius: inherit;
+    border: 1px solid rgba(0,0,0,0.17);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    font-weight: normal;
+    transition: all 0.5s ease-in;
+    list-style: none;
+    display: none;
+    /* Hiding */
+    opacity: 0;
+    pointer-events: auto;
+    z-index: 2000;
+    
+}
+
+#Finderbody .FFwrapper-FFdropdown-3 .FFdropdown li a {
+    position: relative;
+    right: 39px;
+    width: 190px;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: orangered;
+    border-bottom: 1px solid #e6e8ea;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,1);
+    transition: all 0.3s ease-out;
+}
+
+#Finderbody .FFwrapper-FFdropdown-3 .FFdropdown li i {
+    float: right;
+    color: inherit;
+}
+#Finderbody .FFwrapper-dropdown-3 .FFdropdown li:last-of-type a {
+    border-radius: 0 0 7px 7px;
+    border: none;
+}
+ 
+/* Hover state */
+ 
+#Finderbody .FFwrapper-FFdropdown-3 .FFdropdown li:hover a {
+    background: whitesmoke;
+    display: block;
+}
+
+#Finderbody .FFwrapper-FFdropdown-3 .FFdropdown:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 95%;
+    right: 15px;
+   
+   width: 14px;
+    height: 14px;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-width: 1px;
+    border-style: none none solid solid;
+    background-color: #fff;
+    box-shadow: -1px 1px 2.5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: -1px 1px 2.5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: -1px 1px 2.5px rgba(0, 0, 0, 0.1);
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+}
+#Finderbody .FFwrapper-FFdropdown-3 .FFdropdown:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 13px;
+  
+    border-style: solid;
+    border-color: rgba(0,0,0,0.1) transparent;    
+}
+
+#Finderbody .FFwrapper-FFdropdown-3.active .FFdropdown {
+    opacity: 1;
+    pointer-events: auto;
+}
+.FFwrapper-FFdropdown-3.active:after {
+    border-color: #9bc7de transparent;
+    border-width: 6px 6px 0 6px ;
+    margin-top: -3px;
+}
+ 
+.FFwrapper-FFdropdown-3.active {
+  background: #9bc7de;
+  
+}    
+
+
+#Finderload{
+ margin-top: 20px;
+ margin-bottom: 20px;
+ position: relative;
+ left: 550px;
+ top: 25px;
+
+}
+
+#foodCountryHolder{
+  margin-top: 35px;
+  position: relative;
+  right: 106px;
+  top: 40px;
+}

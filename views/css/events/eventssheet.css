@@ -1,0 +1,202 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 16, 2014, 4:03:39 PM
+    Author     : Uche
+*/
+
+#container{
+width: 1201px; /*89%*/;
+margin: 0 auto;
+position: absolute;
+top: 100px;
+left: 0px;
+right: 0px;
+ border:  0px solid rgba(0, 0, 0, 0.1);
+ min-width: 600px;
+
+}
+
+
+#adds{
+    width:400px;
+    height: 800px;
+    float: right;
+    position: relative;
+    left: 30px;
+}
+
+#events{
+    margin: 0 auto;
+    width: 600px;
+    position: relative;
+    left: -25px;
+    margin-bottom: 50px;
+
+}
+
+#eventNavBar{
+    width: 500px;
+    height: 40px;
+    background: whitesmoke;
+}
+
+#eventNavBar ul{
+     position: relative;
+    right: 20px;
+}
+
+#eventNavBar ul li{
+    margin-top: 6px;
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    
+   
+}
+
+#eventNavBar ul li#creatEvent{
+        font-size: 12px;
+        padding-bottom: 7px;
+        background: orangered;
+        color: white;
+        font-weight: 700;
+        position: relative;
+        left: 150px;
+        
+         border-radius: 5px;
+    -moz-border-radius:  5px; /*25px;*/
+    -webkit-border-radius: 5px;
+}
+
+#eventNavBar ul li#creatEvent:hover{
+    text-decoration: none;
+    -moz-box-shadow:    inset 0 0 3px #FFFFFF;
+   -webkit-box-shadow: inset 0 0 3px #FFFFFF;
+   box-shadow:         inset 0 0 3px #FFFFFF;
+}
+
+#eventNavBar ul li:hover{
+ cursor: pointer;
+ text-decoration: underline;
+}
+
+#eventsHolder{
+    margin-top: 20px;
+}
+
+#Eboard{
+    font-weight: 700;
+}
+
+.anEvent{
+    width: 500px;
+    height: 120px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.eventImage {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    bottom: 5px;
+  
+}
+
+
+
+.eventName{
+    float: left;
+     color:  grey;
+    font-size: 16px;
+    font-weight: 700;
+}
+    
+    
+.eventDateTime{
+ color:  rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+      margin-top: 3px;
+}
+.yourInvited{
+    color:  rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.eventWhere{
+    color:  rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+    margin-top: 1px;
+
+     
+}
+
+.eventAccept{
+    float: left;
+    width: auto;
+    height: 16px;
+    background: orangered;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;   
+    padding: 8px 10px 8px 10px;
+     border-radius: 5px;
+    -moz-border-radius:  5px; /*25px;*/
+    -webkit-border-radius: 5px;
+}
+
+.Decline{
+    float: left;
+    width: auto;
+    height: 16px;
+    background: orangered;
+    font-size: 12px;
+    font-weight: 700;
+    color: white; 
+    margin-left: 20px;
+    padding: 8px 10px 8px 10px;
+    /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=50);
+
+  /* Netscape */
+  -moz-opacity: 0.5;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.5;
+
+    opacity:  0.5;
+     border-radius: 5px;
+    -moz-border-radius:  5px; /*25px;*/
+    -webkit-border-radius: 5px;
+}
+.eventAccept:hover, .Decline.Df4:hover{
+    cursor: pointer;
+   -moz-box-shadow:    inset 0 0 3px #FFFFFF;
+   -webkit-box-shadow: inset 0 0 3px #FFFFFF;
+   box-shadow:         inset 0 0 3px #FFFFFF;
+   
+}
+
+.eventAttending, .eventInvited{
+     font-size: 10px;
+    color:  rgba(0, 0, 0, 0.2);
+    margin-left: 15px;
+    
+}
+
+.eventInfo{
+    margin-top: 20px;
+  
+}
+

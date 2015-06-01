@@ -1,0 +1,239 @@
+/* 
+    Document   : imageDialog
+    Created on : Jul 15, 2013, 4:12:03 PM
+    Author     : andy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+    Document   : productsheet
+    Created on : Jun 7, 2013, 4:48:30 PM
+    Author     : andy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#eventLoglayer{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+    z-index: 1000;
+    display: none;
+}
+
+#eventLogdialog{
+  width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    position: absolute;
+  
+    
+    bottom: 30%;
+    right: 20%;
+    left: 15%;
+   
+    background-color: white;
+    z-index: 1500;
+    box-shadow: 0 0 50px #000;
+    -box-shadow: 0 0 50px #000;
+    -webkit-box-shadow: 0 0 50px #000;
+    -ms-box-shadow: 0 0 50px #000;
+    
+    display: none;
+}
+
+#holdEventLog{
+    height: 440px;
+    width: 600px;
+   
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: white;
+    border-right:  1px solid rgba(0, 0, 0, 0.1);
+}
+
+#eventLogForm{
+      background-color: white;
+}
+
+#eventLogclose{
+    cursor: pointer;
+    width: 30px;
+    line-height: 30px;
+    background-color: white;
+    color:orangered;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: 320px;
+    right: -0px;
+}
+
+
+
+#eventLogheader_dialogProd{
+    width: 500px;
+    height: 30px;
+    font-weight: 700;
+   font-size: 14px;
+    color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background: orangered;
+}
+#eventLogheader_dialogProd span.txt{
+    position: relative;
+    left:10px;
+    top: 5px;
+}
+
+
+#eventLogusrform span{
+   font-size: 13px;
+    color: grey;
+    margin-left: 20px;
+  
+}
+
+#eventLogusrform span#evLocation{
+    margin-left: 42px;
+    
+}
+#eventLogusrform span#evName{
+    margin-left: 19px;
+    
+}
+#eventLogusrform span#evDesc{
+    margin-left: 27px;
+    position: relative;
+    bottom: 25px;
+}
+
+#eventLogusrform span#evPrivacy{
+    margin-left: 55px;
+    
+}
+#eventLogusrform span#evType{
+    margin-left: 10px;
+    
+}
+
+
+
+select{
+    
+    height: 30px;
+   font-size: 12px;
+   color: grey;
+   border:  1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+#eventLogusrform input, select{
+    margin-top: 15px;
+    margin-left: 3px;
+}
+
+input{
+    width: 300px;
+    height: 25px;
+    color: grey;
+     border:  1px solid rgba(0, 0, 0, 0.1);
+}
+#eventDes{
+    color: grey;
+    height: 50px;
+    margin-top: 10px;
+    border:  1px solid rgba(0, 0, 0, 0.1);
+}
+
+#eventDATE{
+    width: 140px;
+}
+#eventTime{
+   width: 100px;
+}
+#eventImg{
+    position: relative;
+    left: 15px;
+    top: 8px;
+}
+
+#eventImg:hover{
+    cursor: pointer;
+}
+
+#eventLogusrform input#file{
+    display: none;
+}
+
+#eventLogSubmitBt{
+    width: 80px;
+    height: 27px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    background: orangered;
+    border: none;
+    text-align: center;
+    position: relative;
+    left: 55px;
+    top: 35px;
+    
+       border-radius: 5px;
+    -moz-border-radius:  5px; /*25px;*/
+    -webkit-border-radius: 5px;
+}
+#eventLogSubmitBt:hover, #eventLogCancelBt:hover {
+    cursor: pointer;
+     -moz-box-shadow:    inset 0 0 3px #FFFFFF;
+   -webkit-box-shadow: inset 0 0 3px #FFFFFF;
+   box-shadow:         inset 0 0 3px #FFFFFF;
+}
+
+#eventLogCancelBt{
+    width: 80px;
+    height: 27px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    background: orangered;
+    border: none;
+    text-align: center;
+    position: relative;
+    left: 50px;
+    top: 35px;
+    
+    
+       border-radius: 5px;
+    -moz-border-radius:  5px; /*25px;*/
+    -webkit-border-radius: 5px;
+}
+
+
+
+#event_invites{
+    float: right;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 13px;
+    margin-right: 90px;
+    
+    position: relative;
+    top: 40px;
+}
+
+#event_invites:hover{
+ cursor: pointer;
+ text-decoration: underline;
+ color: grey;
+}
+
+

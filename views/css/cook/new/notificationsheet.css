@@ -1,0 +1,165 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 18, 2014, 12:04:55 PM
+    Author     : Uche
+*/
+
+#notification{
+    float: right;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    left: -120px;
+    top: -90px;
+    z-index: 1500;
+
+}
+
+#notification ul li{
+    list-style:  none;
+    
+}
+
+#notification ul li img:hover{
+    cursor: pointer;
+}
+
+
+#notificationResult{
+    width: 402px;
+    height: 270px;
+    margin: 0 auto;
+    position: absolute;
+    top: 205%;
+    bottom: 10%;
+    right: 100%;
+    left: -1180%;
+   
+    background-color: white;
+    z-index: 1500;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    -box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    -ms-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    display: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#NotificationHeasder{
+    font-size: 13px;
+    color: orangered;
+    font-weight: 700;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    
+}
+#notificationResult::-webkit-scrollbar {
+    width: 5px;
+    height: 250px;
+}
+
+#notificationResult::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+#notificationResult::-webkit-scrollbar-thumb {
+    background: #cccccc;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.5); 
+}
+
+#notification span.notifSpan{
+    display: none;
+}
+#notification span.notifSpan:after{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 32px;
+    width: 14px;
+    height: 14px;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-width: 1px;
+    border-style: none none solid solid;
+    background-color: #fff;
+    box-shadow: -1px 1px 2.5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: -1px 1px 2.5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: -1px 1px 2.5px rgba(0, 0, 0, 0.1);
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    z-index: 2000;
+}
+
+#notifResultHolder{
+    width: 390px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+ 
+}
+
+.NotifUserPic{
+    width: 40px;
+    height: 40px;
+     border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.notifUserNameInfo{
+  width: 340px;
+  font-size: 12px;
+  font-weight: 700;
+  color: grey;
+  position: relative;
+  margin-right: 10px;
+  bottom: 40px;
+  left: 45px;
+  
+}
+
+.notifUserNameInfo a{
+    text-decoration: none;
+    color: orangered;
+}
+.notifUserNameInfo a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.notifTime{
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.3);
+  position: relative;
+  bottom: 35px;
+  left: 45px;
+}
+
+
+#NoNotificationMessage{
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    
+}
+
+#noitifCount{
+    font-size: 11px;
+    color: orangered;
+    position: relative;
+    bottom: 28px;
+    left: 350px;
+}

@@ -1,0 +1,198 @@
+#container{
+   
+    width: 100%;
+    margin: 0 auto;
+ 
+}
+header{
+    margin: 0 auto;
+    width: 100%;
+    height: 110px;
+    background-image: url(http://localhost/enri_header_third.png);
+    background-repeat: repeat-x;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top:  -30px;
+    bottom: 0px;
+    z-index: 1;
+    min-width: 1347px;
+}
+
+#BETA{
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    bottom: 40px;
+    left: 106px;
+}
+
+
+@media only screen and (min-width: 150px) and (mix-width: 600px){
+    header{
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+
+
+#body{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #ECECEC;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    min-width: 1349px;
+}
+
+
+.slogan{
+    width: 500px;
+    color:  #707070;
+    font-size: 12px;
+    font-family: Arial;
+    
+    position: absolute;
+   top: 75px;
+    left: 425px;
+}
+
+.slogan-two{
+    width: 500px;
+    color:  #707070;
+    font-size: 12px;
+    font-family: Arial;
+    
+    
+    position: absolute;
+    top: 105px;
+    left: 425px;
+}
+
+#LoginText{
+    font-size: 25px;
+    font-weight: 700;
+    color: orangered;
+    
+    position: relative;
+    left: 34px;
+    
+    margin-bottom: 10px;
+}
+
+#slider{
+    position: absolute;
+    top: 450px;
+    left: 0px;
+    right: 0px;
+}
+#slider .item{
+    display: none;
+}
+#slider .item.active{
+    display: block;
+}
+#slider .item ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 200px;
+}
+
+
+.homeFooder{
+    font-size: 14px;
+    color: white;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 633px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #707070;
+    min-width: 1349px;
+}
+
+
+
+.homeFooder span{
+    color: white;
+    font-size: 15px;
+    position: relative;
+    top: 32px;
+    left: 150px;
+        
+    
+}
+.homeFooder ul{
+    float: right;
+    position: relative;
+    top: 18px;
+    right: 260px;
+}
+
+.homeFooder ul li{
+    font-size: 15px;
+    color: white;
+    list-style: none;
+    display: inline-block;
+    margin-left: 38px;
+}
+
+.homeFooder ul li a{
+    font-size: 15px;
+    color: white;
+   
+}
+
+
+
+
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 98.5%; 
+    height: 100px; 
+    padding: 10px; 
+    background: #ACACAC;
+    position: absolute;
+    top: 466px;
+    left: 0px;
+    right: 0px;
+    
+      min-width: 1329px;
+}
+#slideshow div ul{
+    margin: 0 auto;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+#slideshow div ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 110px;
+   
+}
+
+.Con_text{
+    width: 200px;
+    color: white;
+    font-size: 14px;
+    
+    position: relative;
+    bottom: 80px;
+    left: 100px;
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}

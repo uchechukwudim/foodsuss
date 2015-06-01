@@ -1,0 +1,335 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 20, 2014, 12:13:23 PM
+    Author     : Uche
+*/
+
+#meHolder{
+    margin: 0 auto;
+    height: 100%;
+    width: 650px;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    position: relative;
+    top: 70px;
+    right: 30px;
+
+}
+
+#About{
+   
+    width: 540px;
+    margin-bottom: 20px;
+}
+
+#location{
+    width: 540px;
+      margin-bottom: 20px;
+}
+
+#map-canvas{
+    float: right;
+    width: 220px;
+    height: 200px;
+    margin-bottom: -170px;
+    border:1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom:200px;
+    right: 50px;
+}
+
+#map-canvas span{
+    font-size: 14px;
+    color: grey;
+    text-align: center;
+}
+
+#favFood{
+    width: 270px;
+    clear: right;
+    margin-bottom: 20px;
+}
+
+#favRestuarant{
+    float: right;
+    width: 250px;
+    margin-bottom: 20px;
+    
+    position: relative;
+    right: 115px;
+}
+
+#favIngredients{
+    clear: right;
+    width: 270px;
+     margin-bottom: 20px;
+}
+
+#favRecipes{
+    float: right;
+     width: 250px;
+     margin-bottom: 20px;
+     
+    position: relative;
+    right: 115px;
+}
+#meHolderHeader{
+    width: 650px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+#meHolderHeader img{
+    position: relative;
+    right: 153px;
+    top: 10px;
+}
+
+#meHolderHeader b{
+    color: grey;
+    position: relative;
+    right: 150px;
+    top: 8px;
+}
+
+#aboutHeader{
+    width: 537px;
+    height: 15px;
+    color: grey;
+    font-size: 10px;
+    font-weight: 700;
+    margin-top: 5px;
+    background: #e6e8ea;
+    padding-left: 5px;
+    position: relative;
+}
+#aboutText{
+     width: 537px;
+     background: white;
+     height: 120px;
+     max-height: 120px;
+  
+     border:1px solid rgba(0, 0, 0, 0.1);
+     color: grey;
+     font-size: 10px;
+     padding-bottom: 2px;
+     padding-top: 2px;
+     padding-left: 10px;
+     position: relative;
+  
+     
+}
+#aboutHeader img{
+    position: relative;
+    top: 2px;
+    left: 463px;
+    display: none;
+}
+
+
+#LocationHeader{
+    width: 537px;
+    height: 15px;
+    color: grey;
+    font-size: 10px;
+    font-weight: 700;
+    background: #e6e8ea;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left:5px;
+    margin-right: 1px;
+    position: relative;
+
+}
+#LocationText{
+    width: 293px;
+    background: white;
+    border:0px solid rgba(0, 0, 0, 0.1);
+    color: grey;
+    font-size: 10px;
+    padding-left: 10px;
+    position: relative;
+
+   
+}
+
+
+#favFoodHeader img{ position: relative; left: 183px; top:2px; display: none;} 
+#favRestuarantHeader img{position: relative; left: 143px; top:2px; display: none;} 
+#favIngredientsHeader img{position: relative; left: 160px; top:2px; display: none;}
+#favRecipesHeader img{position: relative; left: 155px; top:2px; display: none;}
+
+
+#mobile, #address,#currentLocation, #FromLoc , #email {
+     margin-bottom: 10px;
+}
+#mobile{
+    height: 20px;
+   padding-top:  10px;
+}
+
+#mobile:hover, #address:hover,#currentLocation:hover, #FromLoc:hover , #email:hover{
+    cursor: pointer;
+}
+#Mh{
+    width: 100px; margin-left: 50px;
+    height: 20px;
+    position: relative;
+    bottom: 11px;
+    margin-bottom: -20px;
+} 
+#Ah { 
+    width: 150px; margin-left: 55px;
+
+    height: 20px;
+    position: relative;
+    bottom: 11px;
+} 
+#CCh{
+    width: 120px; margin-left: 70px;
+    height: 20px;
+    position: relative;
+    bottom: 11px;
+} 
+#Fmh{
+    width: 120px; margin-left: 60px;
+     height: 20px;
+    position: relative;
+    bottom: 11px;
+} 
+#Eh{
+    width: 150px; margin-left: 58px;
+    height: 20px;
+    position: relative;
+    bottom: 11px;
+}
+
+#favFoodHeader{
+    width: 272px;
+    height: 15px;
+     color: grey;
+    font-size: 10px;
+    font-weight: 700;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left:5px;
+    margin-right: 1px;
+    background: #e6e8ea;
+    position: relative;
+
+}
+
+#favFoodText{
+    width: 272px;
+    background: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border:1px solid rgba(0, 0, 0, 0.1);
+    color: grey;
+    font-size: 10px;
+    padding-left: 5px;
+    
+    position: relative;
+  
+}
+
+#favRestuarantHeader{
+  
+   width: 252px;
+    height: 15px;
+    color: grey;
+    font-size: 10px;
+    font-weight: 700;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left:5px;
+    margin-right: 1px;
+    background: #e6e8ea;
+    position: relative;
+   
+    
+}
+
+#favRestuaranText{
+    width: 252px;
+    background: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border:1px solid rgba(0, 0, 0, 0.1);
+    color: grey;
+    font-size: 10px;
+    padding-left: 5px;
+    position: relative;
+    
+}
+
+#favIngredientsHeader{
+    width: 272px;
+    height: 15px;
+    color: grey;
+    font-size: 10px;
+    font-weight: 700;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left:5px;
+    margin-right: 1px;
+    background: #e6e8ea;
+    position: relative;
+  
+}
+
+#favIngredientsText{
+    width: 272px;
+    background: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border:1px solid rgba(0, 0, 0, 0.1);
+    color: grey;
+    font-size: 10px;
+    padding-left: 5px;
+    position: relative;
+   
+}
+
+#favRecipesHeader{
+    width: 252px;
+    height: 15px;
+    color: grey;
+    font-size: 10px;
+    font-weight: 700;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left:5px;
+    margin-right: 1px;
+    background: #e6e8ea;
+    position: relative;
+
+}
+#favRecipesText{
+    width: 252px;
+    background: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border:1px solid rgba(0, 0, 0, 0.1);
+    color: grey;
+    font-size: 10px;
+    padding-left: 5px;
+    position: relative;
+    
+}
+
+.clearfix:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix{display: inline-block;}

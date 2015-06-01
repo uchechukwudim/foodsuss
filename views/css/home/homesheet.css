@@ -1,0 +1,292 @@
+/* 
+    Document   : homesheet
+    Created on : Jul 31, 2013, 10:18:32 PM
+    Author     : andy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+ /*
+ css for personals end here (left hand)
+ 
+ adds start her
+ */
+
+/*
+ css for adds end here (right hand)
+ 
+feeds start her  (middle)
+ */
+
+#feeds{
+    margin: 0 auto;
+    width: 650px;
+    position: relative;
+    left: -50px;
+    top: -10px;
+    border:  0px solid rgba(0, 0, 0, 0.1);
+  
+}
+
+
+
+
+#postload{
+   position: relative;
+   left: 535px;
+   top: 20px;
+}
+
+/*
+ css for feeds end here (middle hand)
+ */
+ .pic span.RpImage{
+     display: none;
+ }
+ .nuterient span.nutHold{
+     display: none;
+ }
+ 
+ .Ingredients span.IngHolder
+ {
+        display: none;
+ }
+ 
+
+ 
+ /*
+ foodfollow starts here
+ */
+ 
+ .foodCon{
+    position: relative;
+    left: -10px;
+    top: 0px;
+    width: 510px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 1px;
+    box-shadow: 0 0 10px 0px rgba(11, 2, 23, 0.3);
+}
+
+.foodCon:hover{
+    cursor: pointer;
+ 
+}
+.foodpic{
+    width: 100px;
+    height: 100px;
+    border: 0px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 15px;
+    left: 10px;
+ 
+}
+.foodName{
+    width: 200px;
+    position: relative;
+    left: 135px;
+    top: -88px;
+    color: #666666;
+    font-size: 1.20em;
+}
+
+.followFood
+{
+    width: 30px;
+    font-size: 10px;
+    position: relative;
+    top: 5px;
+    left: 450px;
+    margin-bottom: -20px;
+    
+}
+
+.foodDesc{
+       line-height: 145%;
+    width: 350px;
+    position: relative;
+    left: 135px;
+    top: -83px;
+    color: #666666;
+   letter-spacing: 1px;
+    font-size: 15px;
+   margin-bottom: -40px;
+}
+
+
+.enri_recipes{
+    width: 65px;
+    height: 22px;
+    margin: 0 auto;
+    margin-bottom: -30px;
+
+    position: relative;
+    left: 130px;
+    bottom: 24px;
+    color: #666666;   
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+       
+}
+
+.products{
+    width: 65px;
+    height: 22px;
+    margin: 0 auto;
+    position: relative;
+    left: 200px;
+    bottom: 18px;
+    color: #666666;   
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+
+
+
+#Prod{
+    position: relative;
+    left: 10px;
+    bottom: 8px;
+}
+#M{
+    position: relative;
+    left: 14px;
+    top: 3px;
+}
+
+
+#inputFood{
+    margin: 0 auto;
+  width: 480px;
+  height: 30px;
+  position: relative;
+  left:-156px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family:verdana;
+  background-color: white;
+  margin-bottom: 10px;
+ 
+}
+
+.nuterients{
+    
+    font-size: 10px;
+    position: relative;
+    left: 145px;
+    top:-37px;
+    color: #cccccc;
+    font-weight: 600;
+      width: 0px;
+    height: auto;
+    margin-bottom: -30px;
+}
+.nuterients:hover{
+    text-decoration: underline;
+    cursor:  pointer;
+    color:  #666666;
+}
+
+.OtherCountry{
+    font-size: 10px;
+    position: relative;
+    left: 210px;
+    top:-25px;
+    color: #cccccc;
+    font-weight: 600;
+      width: 80px;
+    height: auto;
+}
+
+.OtherCountry:hover{
+   text-decoration: underline;
+    cursor:  pointer;
+    color:  #666666;
+   
+}
+
+
+  
+  #tooltips{
+    border:1px solid rgba(0, 0, 0, 0.1);
+    background: white;
+    color: #666666;
+    font-family: "Century Gothic";
+   font: "Didot";
+   font-size: 10px;
+    padding:10px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    top: 20px;
+    
+  
+    width:300px;
+    height: 100px;
+    margin-bottom: 30px;
+    overflow: auto;
+    display: none;
+  }
+  
+  
+  #foodFollowingHeader{
+    width: 480px;
+   font-family: "Century Gothic";
+   font: "Didot";
+   font-size: 13px;
+   font-weight: 700;
+   color: grey;
+   margin-bottom: 30px;
+   padding-bottom: 5px;
+   position:relative;
+   bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+   position: relative;
+   left: 50px;
+   top:10px
+  }
+  
+  #chefsFollowFriendsHeader
+  {
+       width: 600px;
+   font-family: "Century Gothic";
+   font: "Didot";
+   font-size: 13px;
+   font-weight: 700;
+   color: grey;
+   margin-bottom: 30px;
+   padding-bottom: 5px;
+   position:relative;
+   bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+   position: relative;
+   left: 0px;
+   top:10px
+  }
+  
+  #restFollowFriendsHeader
+  {
+       width: 600px;
+   font-family: "Century Gothic";
+   font: "Didot";
+   font-size: 13px;
+   font-weight: 700;
+   color: grey;
+   margin-bottom: 30px;
+   padding-bottom: 5px;
+   position:relative;
+   bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+   position: relative;
+   left: 0px;
+   top:10px
+  }

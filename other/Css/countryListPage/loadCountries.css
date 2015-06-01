@@ -1,0 +1,63 @@
+/* 
+    Document   : loadCountries
+    Created on : May 10, 2013, 6:08:46 PM
+    Author     : andy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+#loadCon{
+    width: 350px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+  
+
+}
+#picture{
+    width: 70px;
+    height: 70px;
+    border: 1px black groove;  
+}
+
+#Cname{
+    position: relative;
+    left: 80px;
+    top: -73px;
+}
+
+#Desc{
+    position: relative;
+    left: 80px;
+    top: -63px;
+    font-family: "Proxima Nova";
+    letter-spacing: 1px;
+   font-size: 16px;
+    color: #666666;
+    margin-bottom: -50px;
+}
+
+a.Clink:link { color: #666666;
+  font-weight: 600;
+  font-size: 14px;
+}
+a.Clink:visited {color: #666666;}
+a.Clink:active {color: #666666;}
+a.Clink:hover {color:  #666666;
+}
+a {text-decoration: none}
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+
+.load{
+    margin-top: 25px;
+     margin-bottom: 40px;
+  position: absolute;
+  left: 550px;
+
+	
+}

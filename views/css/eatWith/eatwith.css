@@ -1,0 +1,282 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 4, 2014, 11:47:20 PM
+    Author     : Uche
+*/
+
+#container{
+width: 1201px; /*89%*/;
+margin: 0 auto;
+position: absolute;
+top: 100px;;
+left: 0px;
+right: 0px;
+ border:  0px solid rgba(0, 0, 0, 0.1);
+ min-width: 600px;
+
+}
+
+ /*
+ css for personals end here (left hand)
+ 
+ adds start her
+ */
+
+#adds{
+    width:400px;
+    height: 800px;
+    float: right;
+     border-left:  0px solid rgba(0, 0, 0, 0.1);
+}
+/*
+ css for adds end here (right hand)
+ 
+eatwith holder start her  (middle)
+ */
+
+#EatWithHolder{
+    margin: 0 auto;
+    width: 600px;
+    position: relative;
+    left: -130px;
+    border-left: 0px solid rgba(0, 0, 0, 0.1);
+    border-right: 0px solid rgba(0, 0, 0, 0.1);
+  
+
+}
+
+
+
+#eatWithInfoBar{
+    width: 500px;
+    height: 40px;
+    background: whitesmoke;
+    margin-bottom: 30px;
+    position: relative;
+    left: 70px;
+    
+}
+
+#eatWithInfoBar ul{
+     position: relative;
+    right: 20px;
+
+}
+
+#eatWithInfoBar ul li{
+    margin-top: 6px;
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+#eatWithInfoBar ul li#postEatWith{
+    float: right;
+    font-size: 12px;
+    padding: 7px 10px 7px 10px;
+
+    background: orangered;
+    color: white;
+    font-weight: 700;
+    
+     border-radius: 5px;
+    -moz-border-radius:  5px; /*25px;*/
+    -webkit-border-radius: 5px;
+}
+
+#eatWithInfoBar ul li#postEatWith:hover{
+    cursor: pointer;
+    -moz-box-shadow:    inset 0 0 3px #FFFFFF;
+   -webkit-box-shadow: inset 0 0 3px #FFFFFF;
+   box-shadow:         inset 0 0 3px #FFFFFF;
+}
+
+#eatWithInfoBar ul li#picCount{
+    margin-right: 10px;
+}
+
+#eatWithInfoBar ul li#picCount:hover{
+ cursor: pointer;
+ text-decoration: underline;
+}
+
+#eatWithInfoBar ul li#vidCount:hover{
+ cursor: pointer;
+ text-decoration: underline;
+}
+
+#eatWithInfoBar input{
+    display: none;
+}
+
+.EatWithuserFeed{
+    
+    width: 165px;
+    height: 80px;
+    background: white;
+    position: relative;
+    left: 30px;
+    padding-top: 8px;
+    padding-left: 8px;
+   
+}
+
+.eatWithUsername{
+    color: orangered;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    
+    position: relative;
+    top: -80px;
+    left: 95px;
+   
+     
+}
+
+.eatWithUsername a{
+    color: orangered;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    
+ 
+}
+
+.eatWithUsername a:hover{
+ text-decoration: underline;   
+}
+
+.EatwithUserPicVidHolder img{
+    position: relative;
+    bottom: 60px;
+    left: 100px;
+}
+.EatwithUserPicVidHolder video{
+    width: 450px;
+    position: relative;
+    bottom: 60px;
+    left: 100px;
+}
+
+.eatWithUsername span{
+    font-weight: 500;
+    color: grey;
+    font-size: 12px;
+    font-weight: 600;
+     position: relative;
+    left: 5px;
+}
+
+.PicVidinfoBar{
+    width: 450px;
+    height: 30px;
+    background: whitesmoke;
+    
+    position: relative;
+    bottom: 62px;
+    left: 100px;
+}
+
+.PicVidinfoBar img{
+    position: relative;
+    top: -2px;
+    left: 5px;
+}
+.PicVidinfoBar img:hover{
+ cursor: pointer;   
+}
+.PicVidinfoBar span{
+    float: right;
+    color: grey;
+    font-size: 12px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+
+.PicDescription{
+    color: grey;
+    margin-bottom: 10px;
+    font-size: 12px;
+    width: 450px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+}
+
+.commentsCount{
+
+    color: orangered;
+    font-size: 12px;
+    width: 450px;
+    position: relative;
+    left: 390px;
+    bottom: 60px;
+    margin-top: 2px;
+    margin-right: 10px;
+ 
+}
+.commentsCount span{  
+     margin-right: 20px;
+  
+}
+
+.commentsCount span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.EatWithcommentsHolder{
+    margin-top: -40px;
+   margin-left: 100px;
+}
+.userComment{
+    width: 450px;
+    
+}
+
+.userComment span{
+    color: orangered;
+    margin-left: 5px;
+    position: relative;
+    bottom: 25px;
+    
+}
+
+.userCommentText{
+    color: grey;
+    font-size: 15px;
+    width: 450px;
+    margin-left: 48px;
+    position: relative;
+    bottom: 25px;
+}
+
+.imgAjxLoad{
+    position: relative;
+    left:50px;
+    bottom: 5px;
+    display: none
+}
+.EatWithUsercomment{
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+    width: 450px;
+    margin-top: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+}

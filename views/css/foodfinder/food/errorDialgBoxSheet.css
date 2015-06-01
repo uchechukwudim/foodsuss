@@ -1,0 +1,92 @@
+/* 
+    Document   : errorDialgBoxSheet
+    Created on : Jun 26, 2013, 12:15:59 PM
+    Author     : andy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+ .Center-DH{
+      
+    position: relative;
+  }
+
+
+#error_layer{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.9;
+    z-index: 1000;
+      display: none;
+}
+
+.error_dialog{
+    width: 600px;
+    height: 130px;
+    margin: 0 auto;
+    position: absolute;
+    top: 20%;
+    bottom: 10%;
+    right: 20%;
+    left: 20%;
+    background-color: white;
+    z-index: 1500;
+    box-shadow: 0 0 50px #000;
+    -box-shadow: 0 0 50px #000;
+    -webkit-box-shadow: 0 0 50px #000;
+    -ms-box-shadow: 0 0 50px #000;
+      display: none;
+}
+
+.error_dialog.is-fixed{
+     position: fixed;
+     top: 20%;
+    z-index: 2000;
+}
+
+#error_close{
+    cursor: pointer;
+    color: orangered;
+    width: 30px;
+    line-height: 30px;
+    background-color: white;
+
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: 100px;
+    right: -0px;
+    display: none;
+}
+
+#header_dialog{
+    width: 600px;
+    height: 40px;
+    font-weight: 700;
+   font-size: 14px;
+    color: grey;
+    background: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#header_dialog span.txt{
+    position: relative;
+    left:20px;
+    top: 15px;
+}
+
+#er_message{
+    font-family: "Century Gothic";
+   font: "Didot";
+   font-size: 12px;
+    color: #666666;
+    position: relative;
+    left:20px;
+    top: 5px;
+}

@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 29, 2014, 2:40:38 PM
+    Author     : Uche
+*/
+html{
+    font-family: Arial;
+    font-size: 16px;
+}
+#nav ul li{
+    color: gray;
+    width: 200px;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 10px 0px 10px 0px;
+     list-style-position:  inside;
+    text-align: center;
+}
+
+#nav ul li a{
+    color: grey;
+    text-decoration: none;
+    position: relative;
+    top: -5px;
+}
+
+#formHolder{
+    margin: 0 auto;
+    width: 20%;
+    text-align: center;
+    
+    position: relative;
+    top: 200px;
+}
+#research_nagivationHolder{
+    margin: 0 auto;
+    width: 28%;
+    text-align: center;
+    
+    position: relative;
+    top: 50px;
+}
+
+h2{
+    color: gray;
+}
+
+input{
+   
+    padding-left: 5px;
+}
+#researcher_email, #researcher_password{
+    width: 220px;
+    height: 28px;
+    margin-top: 10px;
+}
+
+#researcher_password{
+    margin-left: 5px;
+}
+
+form span{
+    color: gray;
+    font-weight: 700;
+}
+
+#researcher_loginBut{
+    width: 200px;
+    margin-top: 30px;
+    background: orangered;
+    color: white;
+    
+    border: none;
+    
+    padding: 8px 0px 8px 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    
+}
+
+
+#generalHolder ul li{
+    color: gray;
+    list-style: none;
+    width: 300px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-bottom: none;
+    padding: 10px 0px 10px 0px;
+    
+}
+
+#generalHolder ul li:hover{
+    cursor: pointer;
+    background: whitesmoke;
+}
+
+#generalHolder ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.errorMes{
+    color: red;
+    font-size: 13px;
+}

@@ -1,0 +1,649 @@
+/* 
+    Document   : profilesheet
+    Created on : Aug 21, 2013, 4:29:53 PM
+    Author     : andy
+    Description:
+        Purpose of the stylesheet follows.
+
+#container{
+width: 90%;
+margin: 0 auto;
+position: absolute;
+top: 15%;
+left: 0px;
+right: 0px;
+ border:  0px solid rgba(0, 0, 0, 0.1);
+ min-width: 600px;
+}
+*/
+
+.container{
+border:  0px solid rgba(0, 0, 0, 0.1); 
+margin: 0 auto;
+width:  1201px; /*89%*/;
+position: absolute;
+top: 120px;
+left: 0px;
+right: 0px;
+ background: #fff;
+      -webkit-box-shadow: 0px 0px 10px 0px #ccc;
+    -moz-box-shadow: 0px 0px 10px 0px #ccc;
+    box-shadow: 0px 0px 10px 0px #ccc;  
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#which_active{
+    display: none;
+}
+
+#LOAD{
+    position: relative;
+    left: 150px;
+    bottom: 142px;
+}
+
+#personalsProfile{
+  float: left;
+  width: 160px;
+  height: 160px;
+  border:  0px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 330px;
+  left: 49px;
+}
+#personalsProfile ul{
+    position: relative;
+    right: 40px;
+    bottom: 20px;
+    z-index: 1;
+}
+
+#personalsProfile ul li{
+    width: 138px;
+    font-size: 12px;
+    color: grey;
+    font-weight: 700;
+    list-style: none;
+    padding: 8px 0px 8px 0px;
+    margin-bottom: 3px;
+    background: #EFEFEF;
+    text-align: center;
+}
+
+#personalsProfile ul li:hover{
+    cursor: pointer;
+    background: #F4716A;
+    color: white;
+}
+
+
+#Me {
+
+    width: 280px;
+    height: 130px;
+    background: white;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border:  1px solid rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+}
+#mycookbook, #photos, #friendsFollowers, #mycookBox{
+    width: 280px;
+    height: auto;
+    background: white;
+    margin-bottom: 20px;
+   margin-left: 15px;
+    border:  1px solid rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+}
+
+#MeHeader, #mycookbookHeader, #mycookBoxHeader, #friendsFollowersHeader{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: 700;
+    color: orangered;
+    font-size: 13px;
+    text-decoration: none;
+   
+}
+
+#MeHeader:hover, #mycookbookHeader:hover,#mycookBoxHeader:hover, #friendsFollowersHeader:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#friendsFollowersHeader{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#makeLabel{
+    color: grey;
+    font-size: 10px;
+    
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+#Friendship
+{
+    color: grey;
+    font-size: 10px;
+    font-weight: 700;
+    background: orangered;
+    color: white;
+    width: 60px;
+    padding-left: 6px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    position:relative;
+    left:450px;
+    top: 30px;
+    
+    cursor: pointer;
+}
+
+
+#profilDetailsHolder{
+    margin: 0 auto;
+    width: 805px;
+    position: relative;
+    right: 180px;
+    top: 0px;
+    border: 0px solid rgba(0, 0, 0, 0.1);
+}
+#profilExtras{
+    width:215px;
+    height: 400px;
+    float: right;
+     border-left:  0px solid rgba(0, 0, 0, 0.1);
+}
+
+.profilCover{
+    width:711px;
+    height: 217px;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    left: 30px;
+}
+.profilCover:hover > #updateCover{
+    display: block;
+}
+ 
+
+.prfCoverImage{
+ width: 705px;
+  height: 217px;
+ position: absolute;
+ top: 0px;
+}
+
+.prfCoverImage img{
+   width: 100%;
+     height: 217px;
+}
+
+.other_cover{
+    background: #EFEFEF;
+    width: 711px;
+    height: 80px;
+     position: relative;
+    left: 30px;
+}
+
+#profilePic{
+    width: 136px;
+    position: relative;
+    top: -90px;
+    left: 20px;
+}
+
+#profilePicu{
+    width: 136px;
+    position: relative;
+    top: -90px;
+    left: 20px;
+}
+
+
+
+
+#profilePic img{
+    border: 3px solid white;
+}
+
+#profilePicu img{
+    border: 3px solid white;
+}
+
+#profileUserName{
+
+     color: grey;
+     font-size: 16px;
+     font-weight: 700;
+}
+
+#userverify{
+  
+    position: relative;
+    top: 3px;
+     left: 5px;
+     color: grey;
+     font-size: 12px;
+}
+
+#verifyImg{
+
+    position: relative;
+    bottom: 10px;
+
+}
+
+#userNameVerifyHolder{
+    position: relative;
+     top: -72px;
+    left: 200px;
+   
+}
+
+.follow_friend_count_holder{
+    position: relative;
+    top: 5px;
+    left: -30px;
+}
+.follow_friend_count_holder span{
+    color:  #9f9f9f;
+    font-size: 12px;
+    
+   
+    position: relative;
+    left: 380px;
+    top: -56px;
+    
+}
+
+.follow_friend_count_holder span.counting{
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    right: 295px;
+}
+
+#updateInfo{
+    display: none;
+    width: 131px;
+    height: 30px;
+    text-align: center;
+    float: left;
+    position: relative;
+    left: 2px;
+    top: -38px;
+     color: white;
+     font-size: 10px;
+      font-weight: 700;
+     background: #000;
+     opacity: 0.7;
+     padding: 8px 5px 8px 5px;
+      z-index: 1;
+      border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+#updateCover{
+    display: none;
+    width: 80px;
+    float: left;
+    position: relative;
+    left: 580px;
+    top: 170px;
+     color: white;
+     font-size: 10px;
+     font-weight: 700;
+     background: #000;
+     opacity: 0.7;
+     padding: 8px 5px 8px 5px;
+    z-index: 1;
+    
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+#updateInfo:hover, #updateCover:hover{
+cursor: pointer;
+}
+
+#profileLocation span{
+     color: grey;
+     font-size: 12px;
+     font-weight: 500;
+      position: relative;
+     left: 30px;
+     top: 1px;
+}
+#profileLocation{
+     width: 278px;
+     color: grey;
+     font-size: 13px;
+      position: relative;
+     left: 0px;
+     top: 10px;
+     border-top:  1px solid rgba(0, 0, 0, 0.1);
+     padding-top: 10px;
+     padding-left: 2px
+}
+
+#profileLocation img{
+     position: relative;
+     right: 15px;
+     top: 1px;
+}
+#locImg{
+    position: relative;
+     left: 1px;
+}
+
+#favoriteFood img{
+     position: relative;
+     right: 0px;
+     top: 1px;
+}
+
+
+
+#favoriteFood {
+    width: 280px;
+     color: grey;
+     font-size: 13px;
+     position: relative;
+     left: 0px;
+     top: 20px;
+     border-top:  1px solid rgba(0, 0, 0, 0.1);
+     padding-top: 10px;
+         
+}
+
+#favoriteFood span{
+     color: grey;
+     font-size: 12px;
+      font-weight: 500;
+     position: relative;
+     left: 10px;
+  
+    
+}
+
+.myCBHolder{
+  margin-top: 5px;
+  margin-bottom: -20px;
+    border-top:  1px solid rgba(0, 0, 0, 0.1);
+}
+.myCBImage{
+    width: 20px;
+    height: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.myCBRecipeTitle{
+    color: grey;
+    font-size: 12px;
+    margin-bottom: 2px;
+    position:relative;
+    bottom: 25px;
+    left:50px;
+}
+.myCBFood{
+     font-size: 10px;
+     font-weight: 500;
+    color: grey;
+    position: relative;
+    bottom: 25px;
+    left: 48px
+}
+
+.myCBFoodLocation
+{
+      padding-left: 20px;
+    font-size: 10px;
+    font-weight: 500;
+    color: grey;
+    position: relative;
+   
+}
+
+
+.myCBxHolder{
+  margin-top: 5px;
+  margin-bottom: -20px;
+    border-top:  1px solid rgba(0, 0, 0, 0.1);
+}
+.myCBxImage{
+    width: 20px;
+    height: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.myCBxRecipeTitle{
+    color: grey;
+    font-size: 12px;
+    margin-bottom: 2px;
+    position:relative;
+    bottom: 25px;
+    left:50px;
+}
+.myCBxFood{
+     font-size: 10px;
+     font-weight: 500;
+    color: grey;
+    position: relative;
+    bottom: 25px;
+    left: 48px
+}
+
+.myCBxFoodLocation
+{
+      padding-left: 20px;
+    font-size: 10px;
+    font-weight: 500;
+    color: grey;
+    position: relative;
+   
+}
+
+
+.friendPic{
+    padding-top: 10px;
+    padding-left: 5px;
+   
+}
+
+.FriendName a{
+     padding-left: 5px;
+    font-size: 12px;
+    color: orangered;
+    height: 30px;
+    text-overflow: ellipsis-word;
+    width: 100px;
+    
+    position: relative;
+    left: 70px;
+    bottom: 58px;
+    text-decoration: none;
+    
+  
+}
+.FriendName a:hover{
+    text-decoration: underline;
+}
+.friendUsertType{
+    padding-left: 5px;
+    font-size: 10px;
+    font-weight: 500;
+    color: grey;
+    height: 30px;
+    text-overflow: ellipsis-word;
+    width: 100px;
+    position: relative;
+    left: 73px;
+    bottom: 55px;
+    
+}
+
+.FriendverifyImg{
+    position: relative;
+    left: 5px;
+    top: 3px;
+ 
+}
+
+.FFHolder{
+    margin-bottom: -50px;
+    border-top:  1px solid rgba(0, 0, 0, 0.1);
+}
+
+#photos{
+  
+    
+}
+#photos p{
+    clear: left;
+   visibility: hidden;
+   margin-bottom: -19px;
+}
+.photosHolder{
+    float: left;
+    margin-left: 1px;
+    height: 90px;
+    position: relative;
+    left: 1px;
+}
+.photosHolder img{
+    margin-bottom: -4px;
+}
+
+.photosHolder img:hover
+{
+    cursor: pointer;
+}
+
+#photosheader{
+  
+  padding-left: 5px;
+  padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 2px;
+    border-bottom:  1px solid rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+    color: grey;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+input[type=file] {
+    display:block;
+    height:0;
+    width:0;
+}
+
+
+
+
+#AjaximageLoader{
+    width: 100px;
+    position: relative;
+    left: 410px;
+    top: -160px;
+    margin-bottom: -30px;
+    display: none;
+}
+
+#friendshipUpdate{
+    width: 72px;
+    float: left;
+    position: relative;
+    left: 430px;
+    bottom: 85px;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    background: orangered;
+    padding: 8px 5px 8px 5px;
+    z-index: 1;
+    text-align: center;
+     
+     border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+#friendshipUpdate:hover{
+    cursor: pointer
+}
+
+.socialMed ul{
+    position: relative;
+    left: 50px;
+}
+
+.socialMed ul li{
+    list-style: none;
+    display: inline-block;
+}
+.socialMed ul li.FB{
+    width: 10%;
+    font-size: 35%;
+    font-weight: 700;
+    background: #3b5998;
+    color: white;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+    margin-right: 20px;
+}
+
+.socialMed ul li.TWT{
+    width: 10%;
+    font-size: 38%;
+    font-weight: 700;
+    background: #4099FF;
+    color: white;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    text-decoration: none;
+    
+    margin-right: 20px;
+}
+ 
+.socialMed ul li.Gplus{
+    width: 10%;
+    font-size: 38%;
+    font-weight: 700;
+    background: #DD1144;
+    color: white;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    text-decoration: none;
+}
+ 
+
+.socialMed ul li:hover{
+    cursor: pointer;
+    
+}
+.socialMed{
+    position: relative;
+    right: 2%;
+}

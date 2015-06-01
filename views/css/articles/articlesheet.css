@@ -1,0 +1,278 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 25, 2015, 1:44:56 PM
+    Author     : Uche
+*/
+
+@charset "utf-8";
+
+html{
+    font-family: Arial !important;
+    overflow-x: no-display;
+    overflow-y: scroll;
+}
+
+a{
+       text-decoration: none;
+  
+    
+}
+
+
+#container{
+  width: 1201px; /*89%*/;
+  margin: 0 auto;
+  position: absolute;
+  top: 120px;;
+  left: 0px;
+  right: 0px;
+  border:  0px solid rgba(0, 0, 0, 0.1);
+  min-width: 600px;
+}
+
+#Article_feeds{
+    margin: 0 auto;
+    width: 590px;
+    position: relative;
+    top: 20px;
+    right: 140px;
+    margin-bottom: 50px;
+    border:  0px solid rgba(0, 0, 0, 0.1);
+}
+
+.article{
+     
+    position : relative ;
+    left : 20px;
+    top : 0px;
+    width : 93%;
+   
+}
+.article_holder{
+    background : #FFFFFF;
+    -webkit-box-shadow: 0px 0px 10px 0px #ccc;
+    -moz-box-shadow: 0px 0px 10px 0px #ccc;
+    box-shadow: 0px 0px 10px 0px #ccc;  
+    cursor: pointer;
+    width : 85%;
+    
+    position: relative;
+    left: 110px;
+    bottom: 118px;
+    
+    margin-bottom: -133px;
+
+}
+
+.dimacate{
+      width : 95%;
+      border-bottom:  1px solid rgba(0, 0, 0, 0.1);
+      margin-bottom: 10px;
+      margin-left: 12px;
+}
+
+.article_poster_name{
+    font-size: 14px;
+    font-weight: 600;
+    color: orangered;
+    width: 400px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+    position: relative;
+    top: 18px;
+}
+.article_poster_name a{
+    color: orangered;
+}
+.article_poster_name a:hover{
+    text-decoration: underline;
+}
+
+.article_post_time{
+    font-size: 12px;
+    color: grey;
+    width: 50px;
+    
+    position: relative;
+    left: 420px;
+    bottom: 13px;
+}
+
+.article_picture{
+    width: 150px;
+    margin-left: 15px;
+     margin-bottom: -20px;
+}
+
+.article_title{
+    font-size: 16px;
+    font-weight: 600;
+    color: grey;
+    width: 265px;
+    
+    position: relative;
+    left: 175px;
+    bottom: 80px;
+}
+
+.article_desc{
+    font-size: 13px;
+    color: grey;
+    width: 275px;
+    
+    position: relative;
+    left: 175px;
+    bottom: 70px;
+    
+   
+}
+
+.article_ref{
+    float: right;
+    font-size: 12px;
+    font-weight: 600;
+    
+    position: relative;
+    top: 40px;
+}
+
+.article_ref a{
+    color: grey;
+ text-decoration: none;   
+ font-size: 12px;
+    font-weight: 600;
+}
+.article_ref a.active{
+    text-decoration: none;
+}
+
+.article_ref a.visit{
+    text-decoration: none;
+}
+.LCS_bar{
+    width: 210px;
+    position: relative;
+    top: 00px;
+    right: 20px;
+}
+.LCS_bar ul li{
+    font-size: 13px;
+    color: orangered;
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px; 
+}
+
+.LCS_bar ul li span.art_like_count, .LCS_bar ul li span.art_share_count{
+    color: grey;
+    margin-left: 8px;
+    
+    position: relative;
+    bottom: 3px;
+}
+
+.LCS_bar ul li span.like_link:hover, .LCS_bar ul li span.share_link:hover{
+    text-decoration: underline;
+}
+
+.commments_holder{
+    background: whitesmoke;
+     width : 85.6%;
+
+     margin-bottom: 40px;
+     position: relative;
+     left: 108px;
+     
+    
+}
+.commentCounter{
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+.commentCounter span{color: #FF4500; margin-bottom: 10px;}
+
+.commentCounter span:hover{
+    cursor: pointer;
+}
+.post_comments_box_profile_photo
+{
+    background : #4D4D4D;
+    background : rgba(77, 77, 77, 1);
+    position : relative ;
+    left : 17px;
+    top:  26px;
+    width : 35px;
+    height : 36px;
+}
+.post_comments_box
+{
+    font-size: 13px;
+    color: grey;
+    padding-left: 2px;
+    background : #FFFFFF;
+    background : rgba(255, 255, 255, 1);
+    position : relative;
+    left : 55px;
+    top: -10px;
+    width : 400px;
+    height : 35px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.post_comments_box p{
+    position: relative;
+    top: 8px;
+    margin-left: 5px;
+}
+
+.user_photo{
+    position : relative ;
+    left : 18px;
+    top: 20px;
+    width : 35px;
+    height: 36px;
+}
+
+
+.user_name{
+    width: 320px;
+    font-size: 13px;
+    color:#FF4500;
+
+    position: relative;
+    top: -20px;
+    left: 65px;
+}
+.user_name a{
+    text-decoration: none;
+    color: #FF4500;
+}
+.user_comment{
+
+    font-size: 13px;
+    color:grey;
+    width: 400px;
+    position: relative;
+    top: -25px;
+    left: 65px;
+}
+
+.postTime{
+
+    font-size: 11px;
+    color:rgba(0, 0, 0, 0.3);
+
+    position: relative;
+    top: -38px;
+    left: 390px;
+    width: 150px
+}

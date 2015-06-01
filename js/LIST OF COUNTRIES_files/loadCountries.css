@@ -1,0 +1,46 @@
+/* 
+    Document   : loadCountries
+    Created on : May 10, 2013, 6:08:46 PM
+    Author     : andy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#loadCon{
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: -30px;
+  
+
+}
+#picture{
+    width: 70px;
+    height: 70px;
+    border: 1px black groove;  
+}
+
+#Cname{
+    position: relative;
+    left: 80px;
+    top: -73px;
+}
+
+#Desc{
+    position: relative;
+    left: 80px;
+    top: -63px;
+    color: #666666;
+}
+
+a.Clink:link { color: #666666;}
+a.Clink:visited {color: #666666;}
+a.Clink:active {color: #666666;}
+a.Clink:hover {color: orangered;}
+a {text-decoration: none}
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}

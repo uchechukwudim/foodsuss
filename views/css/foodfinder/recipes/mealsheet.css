@@ -1,0 +1,767 @@
+/* 
+    Document   : mealsheet
+    Created on : 27-May-2013, 14:35:43
+    Author     : Niamhy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@charset "utf-8";
+#container { 
+width: 1201px; /*89%*/;
+margin: 0 auto;
+position: absolute;
+top: 15%;
+left: 0px;
+right: 0px;
+ border:  0px solid rgba(0, 0, 0, 0.1);
+ min-width: 600px;
+}
+
+
+#leftnav{
+        
+    float: left;
+    width: 180px;
+    position: relative;
+    top: 20px;
+}
+
+#rightNav{
+        
+    float: right;
+    width: 250px;
+    height: 400px;
+    position: relative;
+    top: 20px;
+}
+#body{
+ margin: 0 auto;
+ width: 480px;
+ padding: 10px 0px 0px 10px;
+
+ position: relative;
+ right: 33px;
+ top: 20px;
+ background-color: white;
+ 
+}
+#body .CRwrapper-CRdropdown-3 span{
+    position: relative;
+    left:0px;
+}
+
+
+
+#body .CRwrapper-CRdropdown-3{
+   /* Size and position */
+    position: relative;
+    left: 130px;
+    top: -30px;
+    width: 70px;
+    margin: 0 auto;
+    padding: 10px;
+ 
+    /* Styles */
+   background: white;
+    border-radius: 7px;
+    border: 0px solid rgba(0,0,0,0.15);
+    box-shadow: 0px 0px rgba(50,50,50,0.1);
+    cursor: pointer;
+    outline: none;
+ 
+    /* Font settings */
+    font-weight: bold;
+    font-size: 12px;
+    color: orangered;
+    margin-bottom: -50px;
+}
+
+#body .CRwrapper-CRdropdown-3:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: orangered transparent;
+}
+
+
+#body  .CRwrapper-CRdropdown-3 .CRdropdown {
+  /* Size & position */
+    position: absolute;
+    top: 22px;
+    left: 0px;
+    
+    /* Styles */
+    background: white;
+    border-radius: inherit;
+    border: 1px solid rgba(0,0,0,0.17);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    font-weight: normal;
+    transition: all 0.5s ease-in;
+    list-style: none;
+     display: none;
+    /* Hiding */
+    opacity: 0;
+    pointer-events: auto;
+    z-index: 1500;
+}
+
+#body .CRwrapper-CRdropdown-3 .CRdropdown li a{
+    font-weight: 700;
+    position: relative;
+    right: 39px;
+    width: 80px;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: orangered;
+    border-bottom: 0px solid #e6e8ea;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,1);
+    transition: all 0.3s ease-out;
+    
+}
+
+#body .CRwrapper-CRdropdown-3 .CRdropdown li i {
+    float: right;
+    color: inherit;
+
+}
+#Finderbody .CRwrapper-CRdropdown-3 .CRdropdown li:last-of-type a {
+    border-radius: 0 0 7px 7px;
+    border: none;
+}
+ 
+/* Hover state */
+ 
+#body .CRwrapper-CRdropdown-3 .CRdropdown li:hover a {
+    background: whitesmoke;
+    display: block;
+    width: auto;
+    
+}
+
+#body .CRwrapper-CRdropdown-3 .CRdropdown li:hover {
+    background: whitesmoke;
+    display: block;
+    width: auto;
+}
+
+#body .CRwrapper-CRdropdown-3 .CRdropdown:after {
+    content: "";
+    position: absolute;
+    bottom: 94%;
+    right: 15px;
+   width: 14px;
+    height: 14px;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-width: 1px;
+    border-style: none none solid solid;
+    background-color: #fff;
+    box-shadow: -1px 1px 2.5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: -1px 1px 2.5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: -1px 1px 2.5px rgba(0, 0, 0, 0.1);
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+   z-index: 1;
+}
+#body .CRwrapper-CRdropdown-3 .CRdropdown:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 120px;
+    
+}
+
+#body .CRwrapper-CRdropdown-3.active .CRdropdown {
+    opacity: 1;
+    pointer-events: auto;
+    width: 100px;
+}
+.CRwrapper-CRdropdown-3.active:after {
+    border-color: #9bc7de transparent;
+    border-width: 6px 6px 0 6px ;
+    margin-top: -3px;
+}
+ 
+.CRwrapper-CRdropdown-3.active {
+  background: #9bc7de;
+  
+} 
+
+#counterHolder{
+    display: none;
+}
+
+#FoodMeal:hover{
+    cursor: pointer;
+}
+#FoodMeal{
+    width: 20px;
+}
+
+
+
+
+.feed_1
+{
+    background : #FFFFFF;
+    -webkit-box-shadow: 0px 0px 10px 0px #ccc;
+    -moz-box-shadow: 0px 0px 10px 0px #ccc;
+    box-shadow: 0px 0px 10px 0px #ccc;  
+    cursor: pointer;
+    position : relative ;
+    left : 0px;
+    top : -10px;
+    width : 87%;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+  
+	
+}
+
+.post_comments
+{
+    background : whitesmoke;
+   
+    width : 100%;
+    border-radius : 0px 0px 10px 10px;
+    -moz-border-radius : 0px 0px 10px 10px;
+    -webkit-border-radius : 0px 0px 10px 10px;
+}
+.post_flag
+{
+    background : #FFFFFF;
+
+    position : relative ;
+    left : 239px;
+    width : 75px;
+    height : 40px;
+    border-radius : 0px 10px 10px 0px;
+    -moz-border-radius : 0px 10px 10px 0px;
+    -webkit-border-radius : 0px 10px 10px 0px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: -50px;
+    margin-top: 5px;
+
+}
+.post_text ul li.post_flag img.homeFood{
+    position: relative;
+    top: 0px;
+    left: 5px;
+}
+.post_stats
+{
+    background : #FF4500;
+    background : rgba(255, 69, 0, 1);
+    width : 305px;
+    height : 123px;
+    border-radius : 0px 10px 10px 0px;
+    -moz-border-radius : 0px 10px 10px 0px;
+    -webkit-border-radius : 0px 10px 10px 0px;
+    cursor: pointer;
+    display: none;
+   
+}
+.post_stats{
+    font-size: 13px;
+    color: #ffffff;
+    position: absolute;
+    left: 0px;
+    
+}
+
+.post_stats ul li{
+    display: inline-block;
+   margin-right: 15px;
+   margin-bottom: 10px;
+}
+
+.post_stats ul li span{
+    position: relative;
+    bottom: 5px;
+    left: -4px;
+}
+
+.post_comments_box_btn
+{
+    background : #FF4500;
+    background : rgba(255, 69, 0, 1);
+    position : relative ;
+    left : 798px;
+    top : 596px;
+    z-index: 1;
+    width : 64px;
+    height : 35px;
+    border-radius : 0px 10px 10px 0px;
+    -moz-border-radius : 0px 10px 10px 0px;
+    -webkit-border-radius : 0px 10px 10px 0px;
+}
+.post_comments_box p{
+    position: relative;
+    top: 8px;
+}
+.post_profile_photo
+{
+    background : #4D4D4D;
+    background : rgba(77, 77, 77, 1);
+    position : relative ;
+    left : -105px;
+    top : 0px;
+    margin-bottom: -100px;
+    width : 100px;
+    height : 100px;
+    
+}
+
+.post_text ul li.post_profile_link{
+   width: 100%;
+    height: 30px;
+    color: #FF4500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position : relative ;
+    left : -40px;
+    top: 0px;
+    z-index: 1;
+     border-top:  1px solid rgba(0, 0, 0, 0.1);
+}
+
+.post_profile_link ul li{
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 8px;
+        
+}
+
+.post_profile_link ul.recipeNav{ 
+    position: relative;
+    left: 300px;
+    top: -12px;
+    margin-bottom: 10px;
+}
+
+.post_profile_link ul.recipeNav li.cookboxit img{
+    position: relative;
+    top: 3px;
+}
+
+.post_profile_link ul.TYCKSHR{
+    position: relative;
+    top: 12px;
+    left: -20px;
+}
+
+.post_profile_link ul li.tastyCount img{
+    position: relative;
+    left: 0px;
+}
+
+.post_profile_link ul li.tastyCount span{
+    position: relative;
+    left: 2px;
+    top: -1px;
+}
+.post_profile_link ul li.cookCount img{
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
+.post_profile_link ul li.cookCount span{
+    position: relative;
+    left: 13px;
+}
+.post_profile_link ul li.shareCount img{
+    position: relative;
+    left: 20px;
+}
+
+.post_profile_link ul li.shareCount span{
+    position: relative;
+    left: 23px;
+}
+
+.post_text{
+    font-size: 13px;
+    width : 450px;
+}
+
+.post_text ul li{
+    color: grey;
+    list-style: none;
+    margin-left: 0px;
+}
+
+.post_text ul li a{
+    text-decoration: none;
+    color: #FF4500;
+}
+.post_text ul li.RecpPhoto{
+    
+    font-size: 15px;  line-height: 145%;
+    position: relative;
+    right: 41px;
+    top: -3px;
+}
+.post_text ul li.RecpPhoto img{
+    width: 100%;
+    height: 250px;
+}
+.post_text ul li.hashTagTitle{
+    width: 60%;
+    color: grey;
+    font-size: 1.25em;
+    margin-left: -30px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.post_text ul li.hashTagTitle:hover{
+    color: #F4716A;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.post_text span.mealType{
+    width: 50px;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+    left: 310px;
+    
+}
+
+.post_text ul li.recipDesc{
+    width: 100%;
+    font-size: 15px;
+    margin-left: -30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 2px;
+    padding-right: 30px;
+}
+
+
+.post_comments_box_profile_photo
+{
+    background : #4D4D4D;
+    background : rgba(77, 77, 77, 1);
+    position : relative ;
+    left : 18px;
+    top:  26px;
+    width : 35px;
+    height : 36px;
+}
+.post_comments_box
+{
+    font-size: 13px;
+    color: grey;
+    background : #FFFFFF;
+    background : rgba(255, 255, 255, 1);
+    position : relative;
+    left : 55px;
+    top: -10px;
+    width : 459px;
+    height : 35px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.post_comments_box p{
+    position: relative;
+    bottom: 10px;
+    margin-left: 5px;
+}
+
+.commentCounter{
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+.commentCounter span{color: #FF4500; margin-bottom: 10px;}
+
+.UserComments{
+	
+	margin-bottom: 0px;
+}
+
+.user_photo{
+    position : relative ;
+    left : 18px;
+    top: 20px;
+    width : 35px;
+    height: 36px;
+}
+
+
+.user_name{
+    width: 320px;
+    font-size: 13px;
+    color:#FF4500;
+
+    position: relative;
+    top: -20px;
+    left: 65px;
+}
+.user_name a{
+    text-decoration: none;
+    color: #FF4500;
+}
+.user_comment{
+
+    font-size: 13px;
+    color:grey;
+    width: 400px;
+    position: relative;
+    top: -25px;
+    left: 65px;
+}
+
+.postTime{
+
+    font-size: 11px;
+    color:rgba(0, 0, 0, 0.3);
+
+    position: relative;
+    top: -38px;
+    left: 390px;
+    width: 150px
+}
+
+
+
+
+
+
+
+
+
+
+.cooklayer{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+    z-index: 1000;
+    display: none
+}
+
+
+.TOOLTIP{
+    color: grey;
+    width: 424px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 35px;
+    z-index: 1500;
+    display: none;
+}
+
+
+.TOOLTIP span.tooler:after {
+  content: ' ';
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: -8px;
+    width: 14px;
+    height: 14px;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-width: 1px;
+    border-style: none none solid solid;
+    background-color: #fff;
+    box-shadow: -1px 1px 2.5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: -1px 1px 2.5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: -1px 1px 2.5px rgba(0, 0, 0, 0.1);
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+  
+}
+
+.TOOLTIPHOLDER{
+    width: 420px;
+    height: 125px;
+    font-size: 13px;
+    color: gray;
+    margin-left: 5px;
+    position: absolute;
+    top: 60px;
+    z-index: 1500;
+    display: none;
+   
+}
+.TOOLTIPHOLDER::-webkit-scrollbar {
+    width: 10px;
+}
+
+.TOOLTIPHOLDER::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+.TOOLTIPHOLDER::-webkit-scrollbar-thumb {
+    background: #cccccc;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.5); 
+}
+
+.TOOLTIP b{
+    color: grey;
+    width: 250px;
+    font-size: 15px;
+     position: relative;
+    top: 10px;
+    left: 125px;
+     border-bottom: 2px solid orangered;
+     margin-bottom: 10px;
+}
+.TOOLTIPHOLDER p{
+    margin-bottom: -5px;
+}
+
+.ingrQty{
+    font-weight: 700;
+    margin-left: 5px;
+    margin-right: 5px;
+  margin-top: 10px;
+  
+}
+.ingre{
+
+}
+
+
+
+
+
+.TOOLTIPShc{
+    color: grey;
+    width: 424px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 35px;
+    right: -14px;
+    z-index: 1500;
+    display: none;
+}
+.TOOLTIPShc b{
+    color: grey;
+    width: 250px;
+    font-size: 15px;
+     position: relative;
+    top: 10px;
+    left: 155px;
+     border-bottom: 2px solid orangered;
+     margin-bottom: 10px;
+}
+.TOOLTIPShc span.tooler:after {
+  content: ' ';
+    display: block;
+    position: absolute;
+    left: 390px;
+    top: -8px;
+    width: 14px;
+    height: 14px;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-width: 1px;
+    border-style: none none solid solid;
+    background-color: #fff;
+    box-shadow: -1px 1px 2.5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: -1px 1px 2.5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: -1px 1px 2.5px rgba(0, 0, 0, 0.1);
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+  
+}
+
+.TOOLTIPHOLDERShc{
+    width: 420px;
+    height: 106px;
+    font-size: 13px;
+    color: gray;
+    margin-left: 5px;
+    margin-right: 10px;
+    position: absolute;
+    top: 78px;
+    right: -23px;
+    z-index: 1500;
+    display: none;
+   
+}
+.TOOLTIPHOLDERShc::-webkit-scrollbar {
+    width: 9px;
+}
+
+.TOOLTIPHOLDERShc::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+.TOOLTIPHOLDERShc::-webkit-scrollbar-thumb {
+    background: #cccccc;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.5); 
+}
+
+#YesBut{
+    width: 50px;
+    height: 25px;
+    color: white;
+    background: orangered;
+    margin-top: 10px;
+      margin-left: 20px;
+    
+}
+
+#NoBut{
+    width: 50px;
+    height: 25px;
+    color: white;
+    background: orangered;
+    margin-top: 10px;
+     margin-left: 20px;
+}
+
+.shopIcon{
+    width: 35px;
+    height: 35px;
+}
+.shopName{
+    font-weight: 700;
+  position: relative;
+  left: 40px;
+  bottom: 36px;
+}
+.shopAddress{
+    width: 350px;
+    position: relative;
+  left: 40px;
+  bottom: 33px;
+}
+
+#SHLOADER{
+    position: relative;
+  left: 160px;
+  top: 3px;
+}

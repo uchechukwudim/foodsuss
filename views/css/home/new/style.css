@@ -1,0 +1,337 @@
+* {box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+
+html,body,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,q,small,strong,sub,sup,dl,dt,dd,ol,fieldset,form,label,legend,input,table,caption,tbody,tfoot,thead,tr,th,td,figure{border:0;margin:0;padding:0}
+html {overflow-y: scroll;-webkit-text-size-adjust:auto;-webkit-overflow-scrolling: touch;-webkit-tap-highlight-color:#FF7A73;}
+
+body {background: url('http://localhost/pictures/bg.png') repeat fixed;}
+fieldset,abbr,acronym{border:0;}
+article,aside,figure,figcaption,hgroup,footer,header,nav,section,video,object{display:block;}
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1;max-width: 100%; }
+
+/*LAYOUT*/
+.head 		{float:left;width:100%;position:fixed;z-index:2;height:auto; margin-top: -50px; min-width: 1370px;}
+.home .head 	{position:absolute;}
+.head .wrapp 	{width:1370px;height:100%;background:#fff;-webkit-box-shadow:0 1px 4px rgba(0,0,0,.2);-moz-box-shadow:0 1px 7px rgba(0,0,0,.2);box-shadow:0 1px 7px rgba(0,0,0,.2);display:inline-block; max-width:100%;}
+.main		{float:left;width:100%;display:block;min-height:500px;padding:45px 0 0px;}
+.foot		{float:left;width:100%;}
+.wrap 		{margin:0 auto;width:1170px;text-align:left;position:relative;max-width:100%;}
+
+
+
+hr {border:none;border-bottom:1px solid #ddd;padding:0;margin:0 0 30px;}
+
+.head img 		{border:none;display: block;max-width:100%;}
+a 		{color:#F4716A;outline:none;text-decoration:none;-webkit-transition:all 0.2s ease-in;-moz-transition:all 0.2s ease-in;-o-transition:all 0.2s ease-in;-ms-transition:all 0.2s ease-in;transition:all 0.2s ease-in;}
+a:hover, a:focus,.post h2 a:hover {color:#F4716A;}
+nav a:hover,.button:hover,.generic-button a:hover,.quicklinks .button:hover {text-decoration:none;}
+
+
+/*HEADER*/
+.logo {float:left;display:block;margin:22px 50px 23px 20px; position: relative;top: 50px; left: 100px;}
+.logoLanding {float:left;display:block;margin:22px 50px 23px 20px;}
+
+.main-nav 			{float:right; position: relative; right: 310px; top: 50px; margin-right: -10px;}
+.main-nav ul 			{position:relative;display:inline-table;z-index:9999;}
+.main-nav li 			{float:left;font-size:10px;font-weight:600;text-transform:uppercase; list-style: none}
+.main-nav li a 		{color:#444;float:left;height:90px;line-height:90px;-webkit-transition:color 0.2s ease-in;-moz-transition:color 0.2s ease-in;-o-transition:color 0.2s ease-in;-ms-transition:color 0.2s ease-in;transition:color 0.2s ease-in;}
+.main-nav li a span 	{float:left;line-height:normal;margin:28px 0 29px;padding:8px 10px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-transition:all 0.2s ease-in;-moz-transition:all 0.2s ease-in;-o-transition:all 0.2s ease-in;-ms-transition:all 0.2s ease-in;transition:all 0.2s ease-in;}
+.main-nav li:hover a,
+.main-nav .current-menu-item a 	{color:#fff;}
+.main-nav li:hover span,
+.main-nav .current-menu-item span {background:#FF7B74;color:#fff;}
+.main-nav ul ul 					{display:none;width:150px;margin-left:-30px;position: absolute; top: 100%;padding:0 15px 10px;background:#fff;border-top:3px solid #FF7B74;-webkit-border-radius:0 0 3px 3px;-moz-border-radius:0 0 3px 3px;border-radius:0 0 3px 3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.15), 0 0 3px rgba(0,0,0,.15);-moz-box-shadow:0 1px 0 rgba(0,0,0,.15), 0 0 3px rgba(0,0,0,.15);box-shadow:0 1px 0 rgba(0,0,0,.15), 0 0 3px rgba(0,0,0,.15);}
+.main-nav ul ul:after 				{content:"";position:absolute;top:-11px;left:43%;width: 0;height: 0;border-style: solid;border-width: 0 8px 8px 8px;border-color: transparent transparent #FF7B74 transparent;}
+.main-nav ul ul li 					{float: none; position:relative;background:none;text-transform:none;}
+.main-nav ul ul li a 					{height:auto;line-height:normal;padding:10px 0;border-bottom:1px solid #ddd;color:#666;width:100%;}
+.main-nav ul ul li span 				{padding:0;background:none !important;margin:0;color:#666 !important;}
+.main-nav ul ul li:last-child a 		{border-bottom:none;padding-bottom:0;}
+.main-nav ul ul ul 					{position: absolute; left: 100%; top:-3px;margin-left:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+.main-nav ul ul ul li a 				{padding:10px 0;border-bottom:1px solid #ddd;}
+.main-nav ul ul ul:after			{display:none;}
+.main-nav li:hover > ul			{display:block;}
+.main-nav li:hover ul a,
+.main-nav ul ul li:hover ul a,
+.main-nav .current-menu-item ul a,
+.main-nav .current-menu-item ul ul a {color:#444 !important;}
+.main-nav ul ul li:hover a,
+.main-nav ul ul li:hover span,
+.main-nav ul ul li:hover ul a:hover,
+.main-nav ul ul .current-menu-item a	{color:#F4716A !important;}
+
+.user-nav 					{float:right;width:270px;position:absolute;top:0;right:0;}
+.user-nav li 					{float:right;width:90px;height:90px;font-size:11px;font-weight:700;text-transform:uppercase;text-align:center;overflow:hidden;}
+.user-nav li a 				{color:#fff;float:left;width:100%;height:100%;}
+.user-nav .light a 	{background:#FF8E88;}
+.user-nav .medium a 	{background:#FF7B74;}
+.user-nav .dark a 	{background:#F4716A;}
+.user-nav .ico 				{margin-top:14px;}
+.user-nav li span 				{float:left;width:100%;padding:10px 10px 0;}
+.user-nav li:hover a,
+.user-nav .current-menu-item a 			{background:#fff;}
+.user-nav .light.current-menu-item a,
+.user-nav .light:hover a 					{color:#FF8E88;}
+.user-nav .medium.current-menu-item a,
+.user-nav .medium:hover a 				{color:#FF7B74;}
+.user-nav .dark.current-menu-item a,
+.user-nav .dark:hover a 					{color:#F4716A;}
+.user-nav .light:hover .i-search,
+.user-nav .current-menu-item .i-search 		{background-position:-27px 0;}
+.user-nav .medium:hover .i-account,
+.user-nav .current-menu-item .i-account		{background-position:-80px 0;}
+.user-nav .dark:hover .i-submitrecipe,
+.user-nav .current-menu-item .i-submitrecipe 	{background-position:-133px 0;}
+
+.head select {background:none;border:1px solid #ddd;padding:10px;height:40px;width:100%;color:#444;display:none;}
+
+.slicknav_menu {display:none;}
+
+
+/*SEARCH FOR RECIPES*/
+.recipefinder			{width:100%;padding:22px 30px 30px !important;margin:0 0 30px;}
+.recipefinder h3			{color:#666;padding:5px 0 25px;font-size:16px;}
+.recipefinder .left		{float:left;width:30%;}
+.recipefinder .right 	{float:right;width:70%;padding-left:30px;}
+.recipefinder .f-row 	{padding:10px 0 0 !important;}
+.recipefinder button 		{position:absolute;top:10px;right:0;font-size:37px;padding:0;width:37px;height:37px;line-height:37px;-webkit-border-radius:0 3px 3px 0;-moz-border-radius:0 3px 3px 0;border-radius:0 3px 3px 0;}
+.recipefinder input[type="submit"] {float:right;}
+.recipefinder .gold 	{margin:0 3px 3px 0;}
+
+.recipefinder .ingredients	{padding:0 0 29px;}
+.ingredients .button 		{text-transform:none;}
+.recipefinder .search 					{position:relative;}
+.recipefinder .search input[type="submit"] {background:url(../images/ico/icons.png) -198px 0 no-repeat !important;width:17px;height:17px;position:absolute;top:10px;right:25px;padding:0 !important;font-size:0px;}
+
+.recipefinder .dropdown 			{position:relative;float:left;width:270px;border:1px solid #ddd;font-size:13px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;padding:9px 10px;color:#999;}
+.recipefinder .dropdown:before 	{content:"";background:url(../images/ico/icons.png) -152px -168px no-repeat;width:11px;height:10px;position:absolute;top:13px;right:13px;}
+.recipefinder .dropdown dt 		{cursor:pointer;}
+.recipefinder .dropdown dd		{display:none;padding:9px 0 0;}
+.recipefinder .dropdown dd a 			{color:#999;}
+.recipefinder .dropdown dd a:hover 	{color:#666;}
+
+
+/*FORM ELEMENTS*/
+fieldset 							{display:inline-block;width:100%;}
+label 							{display:inline-block;cursor: pointer;color:#666;position:relative;}
+input,textarea 						{outline: none;}
+button, input, select, textarea 		{font-family:'Raleway',Arial,Helvetica,sans-serif;margin: 0; vertical-align: baseline; *vertical-align: middle;outline:none;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none; -webkit-transition:all 0.2s ease-in;-moz-transition:all 0.2s ease-in;-o-transition:all 0.2s ease-in;-ms-transition:all 0.2s ease-in;transition:all 0.2s ease-in;}
+button, input[type="button"], input[type="reset"], input[type="submit"] {border:none; cursor: pointer; text-transform:uppercase;-webkit-appearance: button; background:#FF7B74;color:#fff;text-align:center;font-size:13px;font-weight:700;padding:11px 14px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover,
+button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus {background:#F4716A;}
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; width:100%;height:100%;}
+input[type="search"] { -webkit-appearance: textfield;}
+input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+input[type="search"],input[type="email"],input[type="text"],input[type="number"],input[type="password"] {width:100% !important;border:1px solid #ddd;color:#666;font-size:13px;font-weight:400;padding:9px 10px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+textarea	{resize: none;height:150px;}
+select {height:37px;font-size:13px;line-height:1;font-weight:600;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;border:1px solid #ddd;color:#666;}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+textarea:focus 	{border-color:#bbb;}
+
+form .alert {display:none;}
+
+.f-row 		{float:left;display:block;width:100%;padding-bottom:20px !important;position:relative;}
+.req		{color:#FF7A73;font-size:35px;font-weight:600;display:inline-block;vertical-align:middle;}
+.f-row .req 	{position:absolute;top:2px;right:7px;z-index:2;}
+
+.captcha label {float:left;line-height:37px;}
+.captcha input {width:100px !important;float:right;}
+
+.bwrap		{float:right !important;padding-right:0 !important;}
+.bwrap input 	{width:100%;}
+
+.checkbox {padding:10px 0 !important;}
+
+
+
+/* General settings */
+div.selector, div.selector span, div.checker span, div.radio span, div.uploader, div.uploader span.action, div.button, div.button span {-webkit-font-smoothing: antialiased; }
+div.selector, div.checker, div.button, div.radio, div.uploader {display: -moz-inline-box;display: inline-block;*display: inline;zoom: 1;vertical-align: middle;}
+div.selector:focus, div.checker:focus, div.button:focus, div.radio:focus, div.uploader:focus {outline: 0; }
+div.selector, div.selector *, div.radio, div.radio *, div.checker, div.checker *, div.uploader, div.uploader *, div.button, div.button * {margin: 0;padding: 0; }
+
+.highContrastDetect {background: url("../images/bg-input.png") repeat-x 0 0;width: 0px;height: 0px; }
+
+/* Input & Textarea */
+input.uniform-input,select.uniform-multiselect,textarea.uniform 							{padding:9px 10px;border:1px solid #ddd;color:#999;}
+input.uniform-input.active,select.uniform-multiselect.active,textarea.uniform.active,
+input.uniform-input.focus,select.uniform-multiselect.focus,textarea.uniform.focus  		{border-color:#bbb;color:#666;}
+
+/* Remove default webkit and possible mozilla .search styles.
+ * Keeping this as :active to remove browser styles */
+div.checker input,
+input[type="search"],
+input[type="search"]:active 			{-moz-appearance: none;-webkit-appearance: none; }
+
+/* Select */
+div.selector		 				{font-size:13px;border:1px solid #ddd;line-height:37px;height:37px;position: relative;overflow: hidden;width:100% !important;padding-left:10px;background:#fff;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+div.selector span 				{color:#999;position:relative;text-overflow: ellipsis;display: block;overflow: hidden;white-space: nowrap;height:37px;line-height:37px;background:#fff;cursor: pointer;width: 100% !important;display: block;}
+div.selector span:before			{content:"";background:url(../images/ico/icons.png) -217px -2px no-repeat;width:13px;height:10px;position:absolute;top:13px;right:10px;}
+div.selector select 				{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;border: none;background: none;position: absolute;height:37px;top:0;left:0;width: 100%;}
+div.selector.active,
+div.selector.focus 				{border-color:#aaa;}
+div.selector.hover span, 
+div.selector.focus span 			{color:#666;}
+div.selector.hover.active, 
+div.selector.focus.active 		{background-position: 0 -208px;}
+div.selector.hover.active span, 
+div.selector.focus.active span 	{background-position: right -78px;}
+div.selector.disabled, 
+div.selector.disabled.active 	{background-position: 0 -234px;}
+div.selector.disabled span, 
+div.selector.disabled.active span {background-position: right -104px;}
+
+/* Checkbox */
+div.checker 						{position:relative;top:-2px;margin-right:10px;}
+div.checker, 
+div.checker span, 
+div.checker input 					{width:20px;height:20px; }
+div.checker span 					{display: -moz-inline-box;display: inline-block;*display: inline;zoom: 1;text-align: center;background: url(../images/ico/form_elements.png) 0 0 no-repeat;}
+div.checker span.checked 			{background-position: 0 -21px; }
+div.checker input 					{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;border: none;background: none;display: -moz-inline-box;display: inline-block;*display: inline;zoom: 1; }
+div.checker.active span					{background-position: 0 0;}
+div.checker.active span.checked 			{background-position: 0 -21px;}
+div.checker.hover span, 	
+div.checker.focus span 					{background-position: 0 0;}
+div.checker.hover span.checked, 
+div.checker.focus span.checked 			{background-position: 0 -21px;}
+div.checker.hover.active span, 
+div.checker.focus.active span 			{background-position: 0 -21px;}
+div.checker.hover.active span.checked, 
+div.checker.focus.active span.checked 	{background-position: 0 -21px;}
+div.checker.disabled, 
+div.checker.disabled.active 				{background-position: 0 0;}
+div.checker.disabled span.checked, 
+div.checker.disabled.active span.checked 	{background-position: 0 -21px;}
+
+/* Radio */
+div.radio 					{position: relative;top:-2px;margin-right:10px;}
+div.radio, 
+div.radio span, 
+div.radio input 				{width:20px;height:20px; }
+div.radio span 				{display: -moz-inline-box;display: inline-block;*display: inline;zoom: 1;text-align: center;background: url(../images/ico/form_elements.png) 0 -42px no-repeat;}
+div.radio span.checked 		{background-position: 0 -63px; }
+div.radio input 				{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;border: none;background: none;display: -moz-inline-box;display: inline-block;*display: inline;zoom: 1;text-align: center;}
+div.radio.active span 					{background-position:0 -42px;}
+div.radio.active span.checked				{background-position:0 -63px;}
+div.radio.hover span, 
+div.radio.focus span						{background-position:0 -42px;}
+div.radio.hover span.checked, 
+div.radio.focus span.checked 				{background-position:0 -63px;}
+div.radio.hover.active span, 
+div.radio.focus.active span 				{background-position:0 -42px;}
+div.radio.hover.active span.checked, 
+div.radio.focus.active span.checked 		{background-position:0 -63px;}
+div.radio.disabled span, 
+div.radio.disabled.active span 			{background-position:0 -42px;}
+div.radio.disabled span.checked, 
+div.radio.disabled.active span.checked 	{background-position:0 -63px;}
+
+
+
+/*FOOTER*/
+.foot 						{padding:30px 0 0;background:#fff;color:#666;-webkit-box-shadow:0 -1px 2px rgba(0,0,0,.1);-moz-box-shadow:0 -1px 2px rgba(0,0,0,.1);box-shadow:0 -1px 2px rgba(0,0,0,.1);}
+.foot article 					{margin-bottom:0;min-height:142px;}
+.foot h5 					{font-size:17px;font-weight:600;padding:0 0 20px;}
+.foot a 						{color:#666;}
+.foot a:hover 				{color:#F4716A;}
+
+.social li 				{text-align:center;float:left;display:block;margin:0 2px 2px 0;padding:0 !important;border:none !important;width:32px;height:32px;background:#FF7B74;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-transition:all 0.2s ease-in;-moz-transition:all 0.2s ease-in;-o-transition:all 0.2s ease-in;-ms-transition:all 0.2s ease-in;transition:all 0.2s ease-in;}
+.social li:before			{display:none !important;}
+.social li:last-child 	{margin-right:0;}
+.social li:hover 			{background:#F4716A;-webkit-box-shadow:inset 0 0 30px rgba(0,0,0,.2);-moz-box-shadow:inset 0 0 30px rgba(0,0,0,.2);box-shadow:inset 0 0 30px rgba(0,0,0,.2);}
+.social li a 				{float:left;display:block;text-indent:-99999px;position:relative;width:100%;height:100%;}
+.social li a:before 		{content:"";position:absolute;}
+.social .facebook a:before  		{background:url(../images/ico/icons.png) 0 -34px no-repeat;width:7px;height:15px;top:9px;left:12px;}
+.social .youtube a:before  		{background:url(../images/ico/icons.png) -30px -33px no-repeat;width:17px;height:16px;top:8px;left:8px;}
+.social .rss a:before  			{background:url(../images/ico/icons.png) -64px -34px no-repeat;width:16px;height:16px;top:8px;left:8px;}
+.social .gplus a:before  			{background:url(../images/ico/icons.png) -99px -34px no-repeat;width:15px;height:15px;top:9px;left:8px;}
+.social .linkedin a:before  		{background:url(../images/ico/icons.png) -132px -35px no-repeat;width:15px;height:14px;top:9px;left:8px;}
+.social .twitter a:before  		{background:url(../images/ico/icons.png) -164px -34px no-repeat;width:20px;height:16px;top:8px;left:6px;}
+.social .pinterest a:before  		{background:url(../images/ico/icons.png) -201px -33px no-repeat;width:13px;height:16px;top:8px;left:10px;}
+.social .vimeo a:before  			{background:url(../images/ico/icons.png) -234px -34px no-repeat;width:17px;height:16px;top:8px;left:7px;}
+
+.bottom		 	{float:left;width:100%;border-top:1px solid #ddd;padding:20px 0 0;color:#888;}
+.foot .bottom 	{padding:20px 0 5px;margin:0 15px;width:1170px;max-width:100%;}
+.copy 			{float:left;max-width:30%;}
+.foot-nav		{float:right;max-width:70%;}
+.foot-nav li 		{float:left;padding:0 0 0 20px;}
+.foot-nav li a 	{color:#888;}
+
+/*OTHER ELEMENTS*/
+.box h2 	{font-size:20px;font-weight:500;padding:3px 0 15px;line-height:1.2;}
+
+
+/*ICONS*/
+.ico 		{display:inline-block;overflow:hidden;background-image:url(../images/ico/icons.png);background-repeat:no-repeat}
+.i-search 		{background-position:0 0;width:25px;height:24px;}
+.i-account 		{background-position:-54px 0;width:24px;height:24px;}
+.i-submitrecipe 	{background-position:-106px 0;width:25px;height:24px;}
+
+.i-appetizers 	{background-position:-40px -63px;width:40px;height:40px;}
+.i-cocktails	{background-position:-80px -63px;width:40px;height:40px;}
+.i-deserts		{background-position:-120px -63px;width:40px;height:40px;}
+.i-eggs			{background-position:-160px -63px;width:40px;height:40px;}
+.i-equipment	{background-position:0 -63px;width:40px;height:40px;}
+.i-events		{background-position:-200px -63px;width:40px;height:40px;}
+.i-fish			{background-position:-240px -63px;width:40px;height:40px;}
+.i-fitness		{background-position:-280px -63px;width:40px;height:40px;}
+.i-healthy		{background-position:0 -101px;width:40px;height:40px;}
+.i-asian		{background-position:-80px -101px;width:40px;height:40px;}
+.i-mexican		{background-position:-40px -101px;width:40px;height:40px;}
+.i-asian		{background-position:-80px -101px;width:40px;height:40px;}
+.i-pizza		{background-position:-200px -101px;width:40px;height:40px;}
+.i-kids			{background-position:-120px -101px;width:40px;height:40px;}
+.i-meat			{background-position:-160px -101px;width:40px;height:40px;}
+.i-snacks		{background-position:-280px -101px;width:40px;height:40px;}
+.i-salads		{background-position:-240px -101px;width:40px;height:40px;}
+.i-storage		{background-position:0px -142px;width:40px;height:40px;}
+.i-vegetarian	{background-position:-40px -142px;width:40px;height:40px;}
+
+.i-facebook			{background-position:-89px -189px;width:15px;height:28px;}
+.i-twitter			{background-position:-106px -191px;width:32px;height:26px;}
+.i-favourites		{background-position:-142px -188px;width:32px;height:28px;}
+
+.i-view				{background-position:-267px -16px;width:28px;height:25px;}
+
+.i-category 			{background-position:-250px 0;width:15px;height:15px;}
+.i-comments 			{background-position:-232px 0;width:15px;height:12px;}
+.i-likes			{background-position:-231px -16px;width:15px;height:13px;}
+.i-date				{background-position:-249px -15px;width:14px;height:15px;}
+.i-easy				{background-position:-268px 0;width:14px;height:13px;}
+.i-medium			{background-position:-283px 0;width:14px;height:13px;}
+.i-hard				{background-position:-298px 0;width:14px;height:13px;}
+
+.i-members			{background-position:0 -225px;width:111px;height:95px;}
+.i-recipes			{background-position:-111px -225px;width:80px;height:95px;}
+.i-photos			{background-position:-192px -225px;width:99px;height:95px;}
+.i-posts			{background-position:0 -323px;width:95px;height:95px;}
+.i-comment			{background-position:-172px -323px;width:106px;height:95px;}
+.i-articles			{background-position:-96px -323px;width:75px;height:95px;}
+
+.i-had_best_recipe 			{background-position:-80px -142px;width:40px;height:40px;}
+.i-was_featured 				{background-position:-120px -142px;;width:40px;height:40px;}
+.i-added_first_recipe		{background-position:-160px -142px;;width:40px;height:40px;}
+.i-added_several_recipes	{background-position:-200px -142px;;width:40px;height:40px;}
+.i-wrote_blog_post			{background-position:-240px -142px;;width:40px;height:40px;}
+.i-wrote_comment			{background-position:-280px -142px;width:40px;height:40px;}
+.i-won_contest				{background-position:0 -182px;width:40px;height:40px;}
+.i-shared_recipe			{background-position:-40px -182px;width:40px;height:40px;}
+
+/*PRELOADER*/
+.preloader {position:fixed;top:0;left:0;width:100%;height:100%;background:#fff;z-index:999;}
+
+.spinner {width:90px;height:90px;background-color:#FF7A73;margin: 20% auto;-webkit-animation: spinner 1.2s infinite ease-in-out;-moz-animation: spinner 1.2s infinite ease-in-out;animation: spinner 1.2s infinite ease-in-out;}
+
+@-webkit-keyframes spinner {
+  0%	{-webkit-transform: perspective(120px) }
+  50% 	{-webkit-transform: perspective(120px) rotateY(180deg) }
+  100% 	{-webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes spinner {
+  0% 	{transform: perspective(120px) rotateX(0deg) rotateY(0deg);-moz-transform: perspective(120px) rotateX(0deg) rotateY(0deg);-ms-transform: perspective(120px) rotateX(0deg) rotateY(0deg);-webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) } 
+  50% 	{transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);-moz-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);-ms-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);-webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)} 
+  100% 	{transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);-moz-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);-ms-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);-webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);}
+}

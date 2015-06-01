@@ -1,0 +1,54 @@
+/* 
+    Document   : searchBox
+    Created on : May 13, 2013, 11:32:33 AM
+    Author     : andy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+form{
+	width:170px;
+	margin:0 auto;
+        
+}
+.search {
+        width: 100px;
+        height: 10px;
+	padding:6px 15px 6px 30px;
+	margin:3px;
+	background: url('http://localhost/pictures/search.png') no-repeat 8px 6px;
+}
+
+.rounded {
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+input[type=text]{
+	color:#bcbcbc;
+}
+
+.lighter, .light, .dark {
+	width:50%;
+	height:50px;
+	padding:40px 25px;
+}
+
+
+.light input[type=text]{
+	border:1px solid #acb1b7;
+	background-color:#fcfcfc;
+}
+input[type=button], input[type=button]:hover {
+        height: 25px;
+        width: 40px;
+	position:relative;
+	left:155px;
+        top: -27px;
+	border:1px solid #adc5cf;
+	background: orangered; /* Old browsers */
+	font-size: 9px;
+        
+	color:white;
+	cursor: pointer;
+}

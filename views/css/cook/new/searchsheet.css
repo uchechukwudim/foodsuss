@@ -1,0 +1,238 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 12, 2014, 7:43:43 PM
+    Author     : Uche
+*/
+#searcher{
+    width: 33%;
+    position: relative;
+    top: -60px; left: 260px;
+    text-align:left
+}
+#apple:hover{
+    cursor: pointer;
+}
+
+#searcher span#sr{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    top: 3px;
+}
+#searcher input{
+    width: 5%;
+    background-image: url(http://localhost/pictures/ENRI_SERCHER_ICON_SMALL1.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-x: 420px;
+    background-position-y: 5px;
+}
+
+#searchResult{
+    width: 445px;
+    height: 270px;
+    margin: 0 auto;
+    position: absolute;
+    top: 125px;
+    bottom: 10%;
+    right: 10%;
+    left: 0%;
+   
+    background-color: white;
+    z-index: 2500;
+    box-shadow: 0 0 2px #000;
+    -box-shadow: 0 0 2px #000;
+    -webkit-box-shadow: 0 0 2px #000;
+    -ms-box-shadow: 0 0 2px #000;
+    display: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#searchResult img{
+    display: inline-block;
+}
+
+#searchResult::-webkit-scrollbar {
+    width: 12px;
+}
+
+#searchResult::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+#searchResult::-webkit-scrollbar-thumb {
+    background: #cccccc;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.5); 
+}
+
+#searchResult ul{
+    position: relative;
+    left: 30px;
+    top: 5px;
+}
+#searchResult ul li{
+    width: 502px;
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 10px;
+    list-style: none;
+    position: relative;
+    right: 40px;
+    margin-bottom: 10px;
+    text-align:  left;
+}
+
+#searchResult ul li:hover{
+    background: #e6e8ea;
+    cursor: pointer;
+}
+
+#searchResult ul li span{
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+  
+}
+
+
+
+//recipe search css style
+.RecipeSearchResult{
+    width: 402px;
+    color: grey;
+   
+
+}
+
+.RecipeSearchResult span.recipe_title a{
+    padding-left: 5px;
+    position: relative;
+    bottom: 30px;
+    font-size: 15px;
+     color: grey;
+    text-decoration: none;
+}
+
+.RecipeSearchResult span.postedBy{
+    padding-left: 65px;
+    position: relative;
+    bottom: 30px;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 11px;
+}
+
+.RecipeSearchResult img{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+//food search result css
+.foodSearchResult{
+    position: relative;
+    right: 50px;
+    width: 402px;
+    color: grey;
+    text-align:  left;
+    border: 1px solid black;
+}
+
+.foodSearchResult span.food_name a{
+    padding-left: 5px;
+    position: relative;
+    bottom: 30px;
+    font-size: 15px;
+    color: grey;
+}
+
+.foodSearchResult span.country_name{
+    padding-left: 65px;
+    position: relative;
+    bottom: 30px;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 11px;
+}
+
+.foodSearchResult img{
+    position: relative;
+    left: -100px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+//product search css
+.productSearchResult{
+    width: 402px;
+    
+    color: grey;
+   
+
+}
+
+.productSearchResult span.product_name a{
+    padding-left: 5px;
+    position: relative;
+    bottom: 30px;
+    font-size: 15px;
+    color: grey;
+}
+
+.productSearchResult span.Food_country_names{
+    padding-left: 65px;
+    position: relative;
+    bottom: 30px;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 11px;
+}
+
+.productSearchResult img{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+//users search result css
+.userSearchResult{
+    width: 402px;
+     font-family: "Century Gothic";
+    font: "Didot";
+    color: grey;
+   
+
+}
+
+.userSearchResult span.names a{
+    padding-left: 5px;
+    position: relative;
+    bottom: 30px;
+    font-size: 15px;
+    color: grey;
+    text-decoration: none;
+}
+
+.userSearchResult span.user_type{
+    padding-left: 65px;
+    position: relative;
+    bottom: 33px;
+    left: 5px;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 11px;
+}
+
+.userSearchResult img{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.userSearchResult img.verify{
+ position: relative;
+ top: 5px;
+ left: 3px;
+ 
+}

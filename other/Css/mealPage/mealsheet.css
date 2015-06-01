@@ -1,0 +1,348 @@
+/* 
+    Document   : mealsheet
+    Created on : 27-May-2013, 14:35:43
+    Author     : Niamhy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#container { 
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+#leftnav{
+        
+    float: left;
+    width: 180px;
+    position: relative;
+    top: 20px;
+}
+
+#rightNav{
+        
+    float: right;
+    width: 250px;
+    height: 400px;
+    position: relative;
+    top: 20px;
+}
+#body{
+ margin: 0 auto;
+ width: 550px;
+ padding: 10px 0px 0px 10px;
+ border-right:  1px solid rgba(0, 0, 0, 0.1);
+ border-left:  1px solid rgba(0, 0, 0, 0.1);
+ position: relative;
+ right: 33px;
+ top: 20px;
+ background-color: whitesmoke;
+   border:  1px solid rgba(0, 0, 0, 0.1);
+}
+
+#Swrapper{
+    width: 170px;
+    margin: 0 auto;
+    position: relative;
+    right: 50px;
+    bottom: 40px;
+}
+
+#mealCon{
+    width: 480px;
+    margin: 0 auto;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 3px;
+}
+
+#foodpic{
+    margin: 0 auto;
+    width: 300px;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 10px;
+}
+
+#mealName{
+    position: relative;
+    left: 30px;
+    top: 10px;
+   color: #666666;
+    font-weight: 600;
+  font-family: "Century Gothic";
+    font: "Didot";
+   font-size: 12px;
+}
+
+#countryMeal{
+  margin-right:  470px;
+  margin-left:  -20px;
+  position: relative;
+    left: 340px;
+    bottom: 2px;
+    font-size: 11px;
+    font-family: "Century Gothic";
+    font: "Didot";
+    color: #666666;
+    word-wrap: break-word;
+    border: 0px solid rgba(0, 0, 0, 0.1);
+    text-align: right;
+}
+#countryMeal span.CM:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#countryMeal span.CM{
+
+  
+}
+#FoodMeal{
+    margin-right:  410px;
+     margin-left:  50px;
+    position: relative;
+    left: 370px;
+    bottom: 18px;
+    font-size: 11px;
+    font-family: "Century Gothic";
+    font: "Didot";
+    color: #666666;
+       border: 0px solid rgba(0, 0, 0, 0.1);
+       text-align: right;
+}
+
+#FoodMeal span.FN:hover{
+   text-decoration: underline;
+    cursor: pointer;
+}
+
+#cook{
+    margin: 0 auto;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    width: 410px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+     padding-bottom: 20px;
+    position: relative;
+    left: -5px;
+    font-family: "Proxima Nova";
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #666666;
+    
+}
+
+#cook span.cookdesc{
+ font-family: "Proxima Nova";
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.pic{
+    margin-top: -20px;
+    font-size: 10px;
+    position: relative;
+    left: 10px;
+    top:44px;
+    color: #cccccc;
+    font-weight: 600;
+    width: 80px;
+}
+.pic:hover{
+    text-decoration: underline;
+    cursor:  pointer;
+    color:  #666666;
+}
+
+.pic span.nImage{
+    display: none;
+}
+.McookedIt{
+    font-size: 10px;
+    position: relative;
+    left: 310px;
+    top: 20px;
+    color: #cccccc;
+    font-weight: 600;
+    cursor: pointer;
+    width: 0;
+}
+.nuterient{
+    font-size: 10px;
+    position: relative;
+    left: 100px;
+    top:32px;
+    color: #cccccc;
+    font-weight: 600;
+    width: 0;
+}
+.nuterient:hover{
+    text-decoration: underline;
+    cursor:  pointer;
+    color:  #666666;
+}
+.nuterient span.nutHold{
+    display: none;
+   
+}
+
+#Hhealth{
+     font-size: 11px;
+    font-family: "Century Gothic";
+    font: "Didot";
+    color: #666666;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+#time{
+    font-size: 10px;
+    position: relative;
+    left: 345px;
+    top:16px;
+    color: #cccccc;
+    font-weight: 600;
+}
+
+.comments{
+    width: 400px;
+    margin: 0 auto;
+   
+
+    margin-top: -8px;
+    position: relative;
+    right:10px;
+    padding-top: -30px;
+    display: none;
+}
+
+#userName{
+   
+    font-size: 12px;
+    position: relative;
+    left: 100px;
+    bottom: 75px;
+    color: #666666;
+    font-family: "Century Gothic";
+   font: "Didot"; 
+}
+
+#userName:hover{
+    text-decoration: underline;
+}
+
+#userIngre{
+     font-size: 12px;
+    position: relative;
+    left: 330px;
+    bottom: 89px;
+}
+
+#userDesc{
+    font-size: 12px;
+    width: 300px;
+    position: relative;
+    left: 100px;
+    bottom: 60px;
+    margin-bottom: -50px;
+    font-family: "Century Gothic";
+   font: "Didot";
+   color: #666666;
+}
+
+#userPic{
+    position: relative;
+    left: 10px;
+}
+
+.commentsHolder{
+ 
+    width: 410px;
+    background-color: whitesmoke;
+    padding-top: -25px;
+    margin-bottom: 2px;
+    
+}
+
+.commentsHolder:hover{
+    width: 410px;
+    background-color: #fcfcfc;
+    cursor: pointer;
+}
+
+#cookedIt{
+    font-size: 9px;
+    position: relative;
+    left: 310px;
+    top:-9px;
+    color: #cccccc;
+    font-weight: 600;
+}
+
+
+#postTime{
+    font-size: 10px;
+    position: relative;
+    left: 100px;
+    top: 5px;
+    color: #666666;
+    font-family: "Century Gothic";
+   font: "Didot";
+}
+
+a.cookit:link { color: #666666;}
+a.cookit:visited {color: #666666;}
+a.cookit:active {color: #666666;}
+a.cookit:hover {color: #666666;}
+a {text-decoration: none}
+
+#commentsbar{
+    margin: 0 auto;
+    width: 410px;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    position: relative;
+    right:5px;
+}
+
+.Recooked{
+    font-size: 10px;
+    position: relative;
+    top: 2px;
+    left: 10px;
+    color: #666666;
+    font-family: "Century Gothic";
+   font: "Didot";
+   padding-bottom: 5px;
+}
+.Recooked span.Rcook:hover{
+    text-decoration: underline;
+   cursor: pointer;
+}
+
+
+
+.textarea{
+  margin: 0 auto;
+  width: 410px;
+  height: 26px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor:text;
+  font-family:verdana;
+  font-size: 10px;
+  position: relative;
+  top: -5px;
+  right: 4px;
+  color: #bcbcbc;
+  margin-bottom: 5px;
+}
+.textarea p{
+margin-top: 4px;
+margin-left: 5px;
+   
+}
