@@ -114,7 +114,7 @@ class home_model extends Model{
        $dat = $sth->fetchAll(PDO::FETCH_ASSOC);
        $data = $this->checkSharedRecipeAndAddOwnerName($dat);
       
-       $userComments = $this->getrecipePostUserCommentsData($data);
+       $userComments = "";//$this->getrecipePostUserCommentsData($data);
        $foodCountry = $this->getRecipePostFoodCountry($data);
       //echo var_dump($foodCountry);
        $tastyCount = $this->getTastyCount($data);
